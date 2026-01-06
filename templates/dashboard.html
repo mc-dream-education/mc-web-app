@@ -52,6 +52,14 @@
 </head>
 <body>
 
+    {% if teacher == 'admin' %}
+        <div style="background: #fff3cd; padding: 15px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #ffeeba;">
+            <strong>Admin-Bereich:</strong>
+            <button onclick="location.href='/admin/add_teacher'" style="background: #856404; color: white; margin-left: 10px; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer;">+ Lehrer anlegen</button>
+            <button onclick="location.href='/admin/logs'" style="background: #004085; color: white; margin-left: 10px; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer;">📊 Protokolle ansehen</button>
+        </div>
+    {% endif %}
+
     <h1>Willkommen, {{ teacher }}!</h1>
     <p>Welche Übung möchtest du heute machen?</p>
 
