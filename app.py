@@ -206,7 +206,9 @@ def adjective_declension():
 
 @app.route('/get_students')
 def get_students():
-    return jsonify(os.listdir("logs"))
+    l = os.listdir('logs/')
+    l.sort()
+    return jsonify(l)
 
 @app.route('/exercise/prepositions')
 def prepositions():
