@@ -1,0 +1,35 @@
+# --- Datenbank ---
+# Schließt die SQLite Datenbank aus
+database.db
+
+# --- Logs ---
+# Schließt alle Schüler-Log-Dateien aus
+log_*.txt
+*.log
+
+# --- PyCharm / IDEs ---
+# Schließt den gesamten PyCharm-Konfigurationsordner aus
+.idea/
+# Falls du mal VS Code nutzt
+.vscode/
+*.swp
+
+# --- Python ---
+# Byte-compiled / optimierte Dateien
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtuelle Umgebungen (sehr wichtig, da diese hunderte MB groß sind)
+venv/
+ENV/
+env/
+
+# --- Betriebssystem ---
+.DS_Store
+Thumbs.db
+
+# --- Verzeichnisse (optional) ---
+# Falls du einen Ordner für Uploads oder temporäre Daten hättest
+instance/
+.pytest_cache/
