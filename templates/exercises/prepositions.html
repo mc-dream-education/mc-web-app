@@ -1,10 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Präpositionen | Training</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; }
+        .nav-header { position: absolute; top: 20px; left: 20px; }
+        /* Lücke-Styling */
+        .gap {
+            border-bottom: 4px solid #cbd5e1;
+            padding: 0 10px;
+            min-width: 80px;
+            display: inline-block;
+            color: #3b82f6;
+            transition: all 0.2s;
+        }
+        .gap.correct { border-color: #10b981; color: #10b981; }
+        /* Button-Styling */
+        .btn-option {
+            border: 2px solid #34495e;
+            background: white;
+            transition: all 0.2s;
+            font-weight: bold;
+        }
+        .btn-option:hover { background-color: #f8f9fa; transform: translateY(-2px); }
+        .btn-category { background-color: #34495e; color: white; border: none; }
+        .hidden { display: none; }
+    </style>
 </head>
-<body>
-$END$
+<body class="bg-slate-50 min-h-screen flex flex-col items-center justify-center p-4">
+
+    <div class="nav-header">
+        <button onclick="location.href='/dashboard'" class="px-4 py-2 border rounded-lg text-slate-500 hover:bg-white transition">
+            ← Dashboard
+        </button>
+    </div>
+
+    <div id="category-selection" class="max-w-2xl w-full text-center">
+        <h2 class="text-2xl font-bold mb-8 text-slate-800">Thema für Präpositionen wählen:</h2>
+        <div id="category-list" class="flex flex-wrap justify-center gap-3">
+            </div>
+    </div>
+
+    <div id="game-container" class="hidden max-w-3xl w-full bg-white shadow-2xl rounded-3xl p-10 text-center border border-slate-100">
+        <div class="flex justify-between items-center mb-8">
+            <span id="display-category" class="text-sm font-bold text-slate-400 uppercase tracking-widest">Übung</span>
+            <div class="text-sm font-bold">
+                Richtig: <span id="correct-count" class="text-emerald-500">0</span> &nbsp;|&nbsp;
+                Falsch: <span id="wrong-count" class="text-rose-500">0</span>
+            </div>
+        </div>
+
+        <div id="feedback" class="h-8 mb-4 font-bold text-lg transition-all"></div>
+
+        <div class="text-3xl md:text-4xl font-medium text-slate-800 leading-relaxed mb-10">
+            <span id="txt-prefix"></span>
+            <span id="gap-display" class="gap">___</span>
+            <span id="txt-noun" class="font-bold"></span>
+            <span id="txt-suffix"></span>
+        </div>
+
+        <div id="current-translation" class="text-slate-400 italic text-xl mb-12"></div>
+
+        <div id="options-container" class="grid grid-cols-2 gap-4 max-w-md mx-auto">
+            </div>
+    </div>
+
+    <script>
+        let currentData = {};
+        let selectedCategory = "";
+        let correctTotal = 0;
+        let wrongTotal = 0;
+        let hasFailedCurrentWord = false;
+        const studentName = "{{ session.get('student_name', 'Schüler') }}";
+
+        // Initialisierung
+        window.onload = fetchCategories;
+
+        async function fetchCategories() {
+            try {
+                // Nutzt deine bestehende Route für Kategorien
+                const response = await fetch('/get_preposition_categories');
+                const categories = await response.json();
+                const listDiv = document.getElementById('category-list');
+
+                categories.forEach(cat => {
+                    const btn = document.createElement('button');
+                    btn.innerText = cat;
+                    btn.className = "btn-category px-6 py-3 rounded-xl font-bold hover:opacity-90 transition";
+                    btn.onclick = () => startGame(cat);
+                    listDiv.appendChild(btn);
+                });
+            } catch (e) { console.error("Fehler beim Laden der Kategorien", e); }
+        }
+
+        function startGame(category) {
+            selectedCategory = category;
+            document.getElementById('category-selection').classList.add('hidden');
+            document.getElementById('game-container').classList.remove('hidden');
+            document.getElementById('display-category').innerText = "Thema: " + category;
+            nextExercise();
+        }
+
+        async function nextExercise() {
+            const response = await fetch(`/get_preposition_exercise?category=${selectedCategory}`);
+            currentData = await response.json();
+
+            hasFailedCurrentWord = false;
+            document.getElementById('feedback').innerText = "";
+            document.getElementById('gap-display').innerText = "___";
+            document.getElementById('gap-display').classList.remove('correct');
+
+            // Inhalte setzen
+            document.getElementById('txt-prefix').innerText = currentData.prefix;
+            document.getElementById('txt-suffix').innerText = currentData.suffix;
+
+            // Nomen und Farbe setzen
+            const nounSpan = document.getElementById('txt-noun');
+            nounSpan.innerText = " " + currentData.noun;
+            nounSpan.style.color = currentData.noun_color;
+
+            renderOptions(currentData.options);
+        }
+
+        function renderOptions(options) {
+            const container = document.getElementById('options-container');
+            container.innerHTML = "";
+
+            // 1. Erstelle eine Kopie des Arrays, damit wir das Original-JSON nicht verändern
+            let shuffledOptions = [...options];
+
+            // 2. Fisher-Yates Shuffle: Das Array wird komplett durchgemischt
+            for (let i = shuffledOptions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+            }
+
+            // 3. Erzeuge die Buttons in der neuen, zufälligen Reihenfolge
+            shuffledOptions.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.innerText = opt;
+                btn.className = "btn-option py-4 rounded-2xl text-xl text-slate-700";
+                btn.onclick = () => checkAnswer(opt);
+                container.appendChild(btn);
+            });
+        }
+
+        async function checkAnswer(choice) {
+            const feedback = document.getElementById('feedback');
+
+            if (choice === currentData.correct) {
+                // Richtig
+                if (!hasFailedCurrentWord) {
+                    correctTotal++;
+                    document.getElementById('correct-count').innerText = correctTotal;
+                }
+
+                document.getElementById('gap-display').innerText = choice;
+                document.getElementById('gap-display').classList.add('correct');
+                feedback.innerText = "Richtig! ✨";
+                feedback.className = "h-8 mb-4 font-bold text-lg text-emerald-500";
+
+                setTimeout(nextExercise, 1200);
+            } else {
+                // Falsch
+                feedback.innerText = "Probiere es noch einmal!";
+                feedback.className = "h-8 mb-4 font-bold text-lg text-rose-500";
+
+                if (!hasFailedCurrentWord) {
+                    wrongTotal++;
+                    document.getElementById('wrong-count').innerText = wrongTotal;
+                    hasFailedCurrentWord = true;
+
+                    // Fehler-Log an Backend senden
+                    await fetch('/log_error', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({
+                            session_name: studentName,
+                            exercise:"Präpositionen",
+                            category: selectedCategory,
+                            word: currentData.prefix + " " + currentData.noun,
+                            wrong_article: choice
+                        })
+                    });
+                }
+            }
+        }
+    </script>
 </body>
 </html>

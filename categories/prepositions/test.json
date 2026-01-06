@@ -1,0 +1,902 @@
+[
+  {
+    "prefix": "Das Buch liegt auf ",
+    "noun": "Tisch",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "der", "den", "das"],
+    "correct": "dem",
+    "translation": "Das Buch liegt auf dem Tisch."
+  },
+  {
+    "prefix": "Ich hänge das Bild an ",
+    "noun": "Wand",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["die", "der", "den", "dem"],
+    "correct": "die",
+    "translation": "Ich hänge das Bild an die Wand."
+  },
+  {
+    "prefix": "Wir sitzen in ",
+    "noun": "Küche",
+    "noun_color": "#ef4444",
+    "suffix": " und trinken Kaffee.",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Wir sitzen in der Küche und trinken Kaffee."
+  },
+  {
+    "prefix": "Er legt den Schlüssel auf ",
+    "noun": "Regal",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Er legt den Schlüssel auf das Regal."
+  },
+  {
+    "prefix": "Das Auto parkt vor ",
+    "noun": "Haus",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["dem", "das", "den", "der"],
+    "correct": "dem",
+    "translation": "Das Auto parkt vor dem Haus."
+  },
+  {
+    "prefix": "Ich gehe heute in ",
+    "noun": "Supermarkt",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Ich gehe heute in den Supermarkt."
+  },
+  {
+    "prefix": "Die Kinder spielen in ",
+    "noun": "Garten",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Die Kinder spielen in dem Garten."
+  },
+  {
+    "prefix": "Stell die Blumen bitte auf ",
+    "noun": "Fensterbank",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["die", "der", "den", "dem"],
+    "correct": "die",
+    "translation": "Stell die Blumen bitte auf die Fensterbank."
+  },
+  {
+    "prefix": "Wir treffen uns vor ",
+    "noun": "Kino",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["dem", "das", "der", "den"],
+    "correct": "dem",
+    "translation": "Wir treffen uns vor dem Kino."
+  },
+  {
+    "prefix": "Der Hund schläft unter ",
+    "noun": "Tisch",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Der Hund schläft unter dem Tisch."
+  },
+  {
+    "prefix": "Ich stelle die Schuhe hinter ",
+    "noun": "Tür",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["die", "der", "den", "dem"],
+    "correct": "die",
+    "translation": "Ich stelle die Schuhe hinter die Tür."
+  },
+  {
+    "prefix": "Das Handtuch hängt neben ",
+    "noun": "Dusche",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Das Handtuch hängt neben der Dusche."
+  },
+  {
+    "prefix": "Er setzt sich auf ",
+    "noun": "Sessel",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Er setzt sich auf den Sessel."
+  },
+  {
+    "prefix": "Die Lampe steht über ",
+    "noun": "Schreibtisch",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Die Lampe steht über dem Schreibtisch."
+  },
+  {
+    "prefix": "Wir fahren am Wochenende an ",
+    "noun": "See",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Wir fahren am Wochenende an den See."
+  },
+  {
+    "prefix": "Der Müll steht neben ",
+    "noun": "Tonne",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Der Müll steht neben der Tonne."
+  },
+  {
+    "prefix": "Ich lege mich kurz auf ",
+    "noun": "Sofa",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Ich lege mich kurz auf das Sofa."
+  },
+  {
+    "prefix": "Die Brille liegt in ",
+    "noun": "Tasche",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Die Brille liegt in der Tasche."
+  },
+  {
+    "prefix": "Er wartet an ",
+    "noun": "Bushaltestelle",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Er wartet an der Bushaltestelle."
+  },
+  {
+    "prefix": "Wir hängen die Wäsche auf ",
+    "noun": "Balkon",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Wir hängen die Wäsche auf den Balkon."
+  },
+  {
+    "prefix": "Der Computer steht auf ",
+    "noun": "Schreibtisch",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Der Computer steht auf dem Schreibtisch."
+  },
+  {
+    "prefix": "Ich springe in ",
+    "noun": "Wasser",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Ich springe in das Wasser."
+  },
+  {
+    "prefix": "Das Fahrrad lehnt an ",
+    "noun": "Mauer",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Das Fahrrad lehnt an der Mauer."
+  },
+  {
+    "prefix": "Wir gehen heute Abend in ",
+    "noun": "Restaurant",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Wir gehen heute Abend in das Restaurant."
+  },
+  {
+    "prefix": "Das Kind versteckt sich hinter ",
+    "noun": "Baum",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Das Kind versteckt sich hinter dem Baum."
+  },
+  {
+    "prefix": "Ich stelle die Vase auf ",
+    "noun": "Kommode",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["die", "der", "den", "dem"],
+    "correct": "die",
+    "translation": "Ich stelle die Vase auf die Kommode."
+  },
+  {
+    "prefix": "Die Katze klettert auf ",
+    "noun": "Dach",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Die Katze klettert auf das Dach."
+  },
+  {
+    "prefix": "Wir wohnen direkt an ",
+    "noun": "Park",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Wir wohnen direkt an dem Park."
+  },
+  {
+    "prefix": "Häng deine Jacke bitte in ",
+    "noun": "Schrank",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Häng deine Jacke bitte in den Schrank."
+  },
+  {
+    "prefix": "Die Milch steht in ",
+    "noun": "Kühlschrank",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Die Milch steht in dem Kühlschrank."
+  },
+  {
+    "prefix": "Ich werfe den Brief in ",
+    "noun": "Briefkasten",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Ich werfe den Brief in den Briefkasten."
+  },
+  {
+    "prefix": "Wir sitzen gemütlich auf ",
+    "noun": "Terrasse",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Wir sitzen gemütlich auf der Terrasse."
+  },
+  {
+    "prefix": "Das Flugzeug fliegt über ",
+    "noun": "Ozean",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Das Flugzeug fliegt über den Ozean."
+  },
+  {
+    "prefix": "Er arbeitet in ",
+    "noun": "Büro",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["dem", "das", "den", "der"],
+    "correct": "dem",
+    "translation": "Er arbeitet in dem Büro."
+  },
+  {
+    "prefix": "Leg die Fernbedienung neben ",
+    "noun": "Fernseher",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Leg die Fernbedienung neben den Fernseher."
+  },
+  {
+    "prefix": "Die Zeitung liegt unter ",
+    "noun": "Bank",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Die Zeitung liegt unter der Bank."
+  },
+  {
+    "prefix": "Ich fahre mit dem Rad durch ",
+    "noun": "Wald",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Ich fahre mit dem Rad durch den Wald."
+  },
+  {
+    "prefix": "Das Kissen liegt auf ",
+    "noun": "Bett",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["dem", "das", "den", "der"],
+    "correct": "dem",
+    "translation": "Das Kissen liegt auf dem Bett."
+  },
+  {
+    "prefix": "Stell den Besen hinter ",
+    "noun": "Schrank",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Stell den Besen hinter den Schrank."
+  },
+  {
+    "prefix": "Die Apotheke ist direkt an ",
+    "noun": "Ecke",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Die Apotheke ist direkt an der Ecke."
+  },
+  {
+    "prefix": "Wir gehen morgen in ",
+    "noun": "Museum",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Wir gehen morgen in das Museum."
+  },
+  {
+    "prefix": "Das Poster klebt an ",
+    "noun": "Tür",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Das Poster klebt an der Tür."
+  },
+  {
+    "prefix": "Setz dich bitte an ",
+    "noun": "Tisch",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Setz dich bitte an den Tisch."
+  },
+  {
+    "prefix": "Der Wein steht in ",
+    "noun": "Regal",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["dem", "das", "den", "der"],
+    "correct": "dem",
+    "translation": "Der Wein steht in dem Regal."
+  },
+  {
+    "prefix": "Ich parke mein Fahrrad vor ",
+    "noun": "Schule",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Ich parke mein Fahrrad vor der Schule."
+  },
+  {
+    "prefix": "Wir laufen über ",
+    "noun": "Brücke",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["die", "der", "den", "dem"],
+    "correct": "die",
+    "translation": "Wir laufen über die Brücke."
+  },
+  {
+    "prefix": "Das Geld liegt in ",
+    "noun": "Schublade",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Das Geld liegt in der Schublade."
+  },
+  {
+    "prefix": "Stell dich bitte neben ",
+    "noun": "Vater",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Stell dich bitte neben den Vater."
+  },
+  {
+    "prefix": "Die Lampe hängt über ",
+    "noun": "Esstisch",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Die Lampe hängt über dem Esstisch."
+  },
+  {
+    "prefix": "Ich gehe jetzt in ",
+    "noun": "Bad",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Ich gehe jetzt in das Bad."
+  },
+  {
+    "prefix": "Der Teppich liegt unter ",
+    "noun": "Couch",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Der Teppich liegt unter der Couch."
+  },
+  {
+    "prefix": "Wir gehen in ",
+    "noun": "Theater",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Wir gehen in das Theater."
+  },
+  {
+    "prefix": "Die Katze schleicht um ",
+    "noun": "Haus",
+    "noun_color": "#10b981",
+    "suffix": " herum.",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Die Katze schleicht um das Haus herum."
+  },
+  {
+    "prefix": "Das Taxi hält vor ",
+    "noun": "Hotel",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["dem", "das", "den", "der"],
+    "correct": "dem",
+    "translation": "Das Taxi hält vor dem Hotel."
+  },
+  {
+    "prefix": "Ich hänge meine Tasche an ",
+    "noun": "Stuhl",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Ich hänge meine Tasche an den Stuhl."
+  },
+  {
+    "prefix": "Der Spiegel hängt in ",
+    "noun": "Flur",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Der Spiegel hängt in dem Flur."
+  },
+  {
+    "prefix": "Wir stellen das Sofa an ",
+    "noun": "Wand",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["die", "der", "den", "dem"],
+    "correct": "die",
+    "translation": "Wir stellen das Sofa an die Wand."
+  },
+  {
+    "prefix": "Das Baby liegt in ",
+    "noun": "Kinderwagen",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Das Baby liegt in dem Kinderwagen."
+  },
+  {
+    "prefix": "Ich werfe den Ball über ",
+    "noun": "Zaun",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Ich werfe den Ball über den Zaun."
+  },
+  {
+    "prefix": "Das Handy liegt neben ",
+    "noun": "Laptop",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Das Handy liegt neben dem Laptop."
+  },
+  {
+    "prefix": "Wir spazieren durch ",
+    "noun": "Stadtzentrum",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Wir spazieren durch das Stadtzentrum."
+  },
+  {
+    "prefix": "Die Schuhe stehen unter ",
+    "noun": "Treppe",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Die Schuhe stehen unter der Treppe."
+  },
+  {
+    "prefix": "Ich setze mich in ",
+    "noun": "Garten",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Ich setze mich in den Garten."
+  },
+  {
+    "prefix": "Die Jacke hängt an ",
+    "noun": "Garderobe",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Die Jacke hängt an der Garderobe."
+  },
+  {
+    "prefix": "Der Zug kommt auf ",
+    "noun": "Gleis",
+    "noun_color": "#10b981",
+    "suffix": " 4 an.",
+    "options": ["dem", "das", "den", "der"],
+    "correct": "dem",
+    "translation": "Der Zug kommt auf dem Gleis 4 an."
+  },
+  {
+    "prefix": "Ich lege die Decke auf ",
+    "noun": "Boden",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Ich lege die Decke auf den Boden."
+  },
+  {
+    "prefix": "Die Maus rennt unter ",
+    "noun": "Schrank",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Die Maus rennt unter den Schrank."
+  },
+  {
+    "prefix": "Wir warten vor ",
+    "noun": "Eingang",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Wir warten vor dem Eingang."
+  },
+  {
+    "prefix": "Das Kissen ist in ",
+    "noun": "Sessel",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Das Kissen ist in dem Sessel."
+  },
+  {
+    "prefix": "Ich schreibe die Notiz auf ",
+    "noun": "Zettel",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Ich schreibe die Notiz auf den Zettel."
+  },
+  {
+    "prefix": "Die Vase steht zwischen ",
+    "noun": "Lampe",
+    "noun_color": "#ef4444",
+    "suffix": " und dem Buch.",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Die Vase steht zwischen der Lampe und dem Buch."
+  },
+  {
+    "prefix": "Er springt über ",
+    "noun": "Bach",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Er springt über den Bach."
+  },
+  {
+    "prefix": "Das Radio steht auf ",
+    "noun": "Küchenschrank",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Das Radio steht auf dem Küchenschrank."
+  },
+  {
+    "prefix": "Ich hänge die Lampe über ",
+    "noun": "Esstisch",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Ich hänge die Lampe über den Esstisch."
+  },
+  {
+    "prefix": "Wir schwimmen in ",
+    "noun": "Meer",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["dem", "das", "den", "der"],
+    "correct": "dem",
+    "translation": "Wir schwimmen in dem Meer."
+  },
+  {
+    "prefix": "Der Vogel fliegt gegen ",
+    "noun": "Fenster",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Der Vogel fliegt gegen das Fenster."
+  },
+  {
+    "prefix": "Ich setze mich neben ",
+    "noun": "Freundin",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["die", "der", "den", "dem"],
+    "correct": "die",
+    "translation": "Ich setze mich neben die Freundin."
+  },
+  {
+    "prefix": "Die Gabel liegt neben ",
+    "noun": "Teller",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Die Gabel liegt neben dem Teller."
+  },
+  {
+    "prefix": "Wir gehen in ",
+    "noun": "Bäckerei",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["die", "der", "den", "dem"],
+    "correct": "die",
+    "translation": "Wir gehen in die Bäckerei."
+  },
+  {
+    "prefix": "Der Teppich passt gut in ",
+    "noun": "Wohnzimmer",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Der Teppich passt gut in das Wohnzimmer."
+  },
+  {
+    "prefix": "Ich stelle das Auto in ",
+    "noun": "Garage",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["die", "der", "den", "dem"],
+    "correct": "die",
+    "translation": "Ich stelle das Auto in die Garage."
+  },
+  {
+    "prefix": "Die Kinder rennen auf ",
+    "noun": "Spielplatz",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Die Kinder rennen auf den Spielplatz."
+  },
+  {
+    "prefix": "Die Katze schläft auf ",
+    "noun": "Dach",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["dem", "das", "den", "der"],
+    "correct": "dem",
+    "translation": "Die Katze schläft auf dem Dach."
+  },
+  {
+    "prefix": "Wir hängen das Poster an ",
+    "noun": "Schrank",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Wir hängen das Poster an den Schrank."
+  },
+  {
+    "prefix": "Das Handtuch liegt in ",
+    "noun": "Badewanne",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Das Handtuch liegt in der Badewanne."
+  },
+  {
+    "prefix": "Er läuft schnell in ",
+    "noun": "Haus",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Er läuft schnell in das Haus."
+  },
+  {
+    "prefix": "Die Lampe steht neben ",
+    "noun": "Sofa",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["dem", "das", "den", "der"],
+    "correct": "dem",
+    "translation": "Die Lampe steht neben dem Sofa."
+  },
+  {
+    "prefix": "Ich lege das Messer in ",
+    "noun": "Schublade",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["die", "der", "den", "dem"],
+    "correct": "die",
+    "translation": "Ich lege das Messer in die Schublade."
+  },
+  {
+    "prefix": "Das Schiff fährt auf ",
+    "noun": "Fluss",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Das Schiff fährt auf dem Fluss."
+  },
+  {
+    "prefix": "Wir fliegen über ",
+    "noun": "Berge",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["die", "der", "den", "dem"],
+    "correct": "die",
+    "translation": "Wir fliegen über die Berge."
+  },
+  {
+    "prefix": "Ich stelle die Tasche unter ",
+    "noun": "Tisch",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Ich stelle die Tasche unter den Tisch."
+  },
+  {
+    "prefix": "Der Koffer steht in ",
+    "noun": "Ecke",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["der", "die", "den", "dem"],
+    "correct": "der",
+    "translation": "Der Koffer steht in der Ecke."
+  },
+  {
+    "prefix": "Ich klebe das Foto in ",
+    "noun": "Album",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["das", "dem", "den", "der"],
+    "correct": "das",
+    "translation": "Ich klebe das Foto in das Album."
+  },
+  {
+    "prefix": "Wir sitzen an ",
+    "noun": "Feuer",
+    "noun_color": "#10b981",
+    "suffix": ".",
+    "options": ["dem", "das", "den", "der"],
+    "correct": "dem",
+    "translation": "Wir sitzen an dem Feuer."
+  },
+  {
+    "prefix": "Der Hund rennt in ",
+    "noun": "Park",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Der Hund rennt in den Park."
+  },
+  {
+    "prefix": "Die Brille liegt auf ",
+    "noun": "Nachttisch",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Die Brille liegt auf dem Nachttisch."
+  },
+  {
+    "prefix": "Er stellt das Glas auf ",
+    "noun": "Untersatz",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Er stellt das Glas auf den Untersatz."
+  },
+  {
+    "prefix": "Ich hänge den Kalender an ",
+    "noun": "Wand",
+    "noun_color": "#ef4444",
+    "suffix": ".",
+    "options": ["die", "der", "den", "dem"],
+    "correct": "die",
+    "translation": "Ich hänge den Kalender an die Wand."
+  },
+  {
+    "prefix": "Das Besteck ist in ",
+    "noun": "Kasten",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["dem", "den", "der", "das"],
+    "correct": "dem",
+    "translation": "Das Besteck ist in dem Kasten."
+  },
+  {
+    "prefix": "Wir gehen auf ",
+    "noun": "Turm",
+    "noun_color": "#3b82f6",
+    "suffix": ".",
+    "options": ["den", "dem", "der", "das"],
+    "correct": "den",
+    "translation": "Wir gehen auf den Turm."
+  }
+]

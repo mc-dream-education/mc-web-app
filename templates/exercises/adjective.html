@@ -119,7 +119,17 @@
         function renderButtons(options) {
             const container = document.getElementById('options-box');
             container.innerHTML = "";
-            options.forEach(opt => {
+
+            // 1. Erstelle eine Kopie des Arrays, damit wir das Original-JSON nicht verändern
+            let shuffledOptions = [...options];
+
+            // 2. Fisher-Yates Shuffle: Das Array wird komplett durchgemischt
+            for (let i = shuffledOptions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+            }
+
+            shuffledOptions.forEach(opt => {
                 const btn = document.createElement('button');
                 btn.innerText = opt === "-" ? "(keine)" : opt;
                 btn.onclick = () => checkAnswer(opt);
