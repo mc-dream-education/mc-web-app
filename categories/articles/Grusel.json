@@ -1,0 +1,1002 @@
+[
+{
+"word": "Abgrund",
+"article": "der",
+"translation": "abyss"
+},
+{
+"word": "Albtraum",
+"article": "der",
+"translation": "nightmare"
+},
+{
+"word": "Angst",
+"article": "die",
+"translation": "fear"
+},
+{
+"word": "Anwesen",
+"article": "das",
+"translation": "estate"
+},
+{
+"word": "Atem",
+"article": "der",
+"translation": "breath"
+},
+{
+"word": "Auge",
+"article": "das",
+"translation": "eye"
+},
+{
+"word": "Axt",
+"article": "die",
+"translation": "axe"
+},
+{
+"word": "Beil",
+"article": "das",
+"translation": "hatchet"
+},
+{
+"word": "Bein",
+"article": "das",
+"translation": "leg"
+},
+{
+"word": "Besen",
+"article": "der",
+"translation": "broom"
+},
+{
+"word": "Bett",
+"article": "das",
+"translation": "bed"
+},
+{
+"word": "Blitz",
+"article": "der",
+"translation": "lightning"
+},
+{
+"word": "Blut",
+"article": "das",
+"translation": "blood"
+},
+{
+"word": "Boden",
+"article": "der",
+"translation": "floor"
+},
+{
+"word": "Botschaft",
+"article": "die",
+"translation": "message"
+},
+{
+"word": "Brücke",
+"article": "die",
+"translation": "bridge"
+},
+{
+"word": "Brunnen",
+"article": "der",
+"translation": "well"
+},
+{
+"word": "Buch",
+"article": "das",
+"translation": "book"
+},
+{
+"word": "Burg",
+"article": "die",
+"translation": "castle"
+},
+{
+"word": "Dachboden",
+"article": "der",
+"translation": "attic"
+},
+{
+"word": "Dämon",
+"article": "der",
+"translation": "demon"
+},
+{
+"word": "Donner",
+"article": "der",
+"translation": "thunder"
+},
+{
+"word": "Dorf",
+"article": "das",
+"translation": "village"
+},
+{
+"word": "Dorn",
+"article": "der",
+"translation": "thorn"
+},
+{
+"word": "Dunkelheit",
+"article": "die",
+"translation": "darkness"
+},
+{
+"word": "Echo",
+"article": "das",
+"translation": "echo"
+},
+{
+"word": "Elixier",
+"article": "das",
+"translation": "elixir"
+},
+{
+"word": "Ende",
+"article": "das",
+"translation": "end"
+},
+{
+"word": "Entsetzen",
+"article": "das",
+"translation": "horror"
+},
+{
+"word": "Erbe",
+"article": "das",
+"translation": "inheritance"
+},
+{
+"word": "Eule",
+"article": "die",
+"translation": "owl"
+},
+{
+"word": "Fackel",
+"article": "die",
+"translation": "torch"
+},
+{
+"word": "Falle",
+"article": "die",
+"translation": "trap"
+},
+{
+"word": "Fenster",
+"article": "das",
+"translation": "window"
+},
+{
+"word": "Feuer",
+"article": "das",
+"translation": "fire"
+},
+{
+"word": "Figur",
+"article": "die",
+"translation": "figure"
+},
+{
+"word": "Finger",
+"article": "der",
+"translation": "finger"
+},
+{
+"word": "Flamme",
+"article": "die",
+"translation": "flame"
+},
+{
+"word": "Fluch",
+"article": "der",
+"translation": "curse"
+},
+{
+"word": "Flur",
+"article": "der",
+"translation": "hallway"
+},
+{
+"word": "Fluss",
+"article": "der",
+"translation": "river"
+},
+{
+"word": "Flüstern",
+"article": "das",
+"translation": "whispering"
+},
+{
+"word": "Foto",
+"article": "das",
+"translation": "photo"
+},
+{
+"word": "Frau",
+"article": "die",
+"translation": "woman"
+},
+{
+"word": "Friedhof",
+"article": "der",
+"translation": "cemetery"
+},
+{
+"word": "Furcht",
+"article": "die",
+"translation": "fright"
+},
+{
+"word": "Fuß",
+"article": "der",
+"translation": "foot"
+},
+{
+"word": "Garten",
+"article": "der",
+"translation": "garden"
+},
+{
+"word": "Gebäude",
+"article": "das",
+"translation": "building"
+},
+{
+"word": "Gefahr",
+"article": "die",
+"translation": "danger"
+},
+{
+"word": "Gefängnis",
+"article": "das",
+"translation": "prison"
+},
+{
+"word": "Gefühl",
+"article": "das",
+"translation": "feeling"
+},
+{
+"word": "Geheimnis",
+"article": "das",
+"translation": "secret"
+},
+{
+"word": "Geist",
+"article": "der",
+"translation": "ghost"
+},
+{
+"word": "Geräusch",
+"article": "das",
+"translation": "noise"
+},
+{
+"word": "Gesicht",
+"article": "das",
+"translation": "face"
+},
+{
+"word": "Gespenst",
+"article": "das",
+"translation": "ghost"
+},
+{
+"word": "Gestalt",
+"article": "die",
+"translation": "shape"
+},
+{
+"word": "Gewitter",
+"article": "das",
+"translation": "thunderstorm"
+},
+{
+"word": "Gift",
+"article": "das",
+"translation": "poison"
+},
+{
+"word": "Glas",
+"article": "das",
+"translation": "glass"
+},
+{
+"word": "Glocke",
+"article": "die",
+"translation": "bell"
+},
+{
+"word": "Grab",
+"article": "das",
+"translation": "grave"
+},
+{
+"word": "Grabstein",
+"article": "der",
+"translation": "gravestone"
+},
+{
+"word": "Grauen",
+"article": "das",
+"translation": "horror"
+},
+{
+"word": "Gruft",
+"article": "die",
+"translation": "crypt"
+},
+{
+"word": "Haar",
+"article": "das",
+"translation": "hair"
+},
+{
+"word": "Hall",
+"article": "der",
+"translation": "reverberation"
+},
+{
+"word": "Hals",
+"article": "der",
+"translation": "neck"
+},
+{
+"word": "Hand",
+"article": "die",
+"translation": "hand"
+},
+{
+"word": "Haus",
+"article": "das",
+"translation": "house"
+},
+{
+"word": "Heulen",
+"article": "das",
+"translation": "howling"
+},
+{
+"word": "Hexe",
+"article": "die",
+"translation": "witch"
+},
+{
+"word": "Hilfe",
+"article": "die",
+"translation": "help"
+},
+{
+"word": "Himmel",
+"article": "der",
+"translation": "sky"
+},
+{
+"word": "Hitze",
+"article": "die",
+"translation": "heat"
+},
+{
+"word": "Höhle",
+"article": "die",
+"translation": "cave"
+},
+{
+"word": "Holz",
+"article": "das",
+"translation": "wood"
+},
+{
+"word": "Hund",
+"article": "der",
+"translation": "dog"
+},
+{
+"word": "Hütte",
+"article": "die",
+"translation": "hut"
+},
+{
+"word": "Insel",
+"article": "die",
+"translation": "island"
+},
+{
+"word": "Jäger",
+"article": "der",
+"translation": "hunter"
+},
+{
+"word": "Kälte",
+"article": "die",
+"translation": "cold"
+},
+{
+"word": "Kammer",
+"article": "die",
+"translation": "chamber"
+},
+{
+"word": "Kapelle",
+"article": "die",
+"translation": "chapel"
+},
+{
+"word": "Katze",
+"article": "die",
+"translation": "cat"
+},
+{
+"word": "Keller",
+"article": "der",
+"translation": "cellar"
+},
+{
+"word": "Kerze",
+"article": "die",
+"translation": "candle"
+},
+{
+"word": "Kette",
+"article": "die",
+"translation": "chain"
+},
+{
+"word": "Kind",
+"article": "das",
+"translation": "child"
+},
+{
+"word": "Kirche",
+"article": "die",
+"translation": "church"
+},
+{
+"word": "Kiste",
+"article": "die",
+"translation": "box"
+},
+{
+"word": "Klaue",
+"article": "die",
+"translation": "claw"
+},
+{
+"word": "Kleid",
+"article": "das",
+"translation": "dress"
+},
+{
+"word": "Klopfen",
+"article": "das",
+"translation": "knocking"
+},
+{
+"word": "Kloster",
+"article": "das",
+"translation": "monastery"
+},
+{
+"word": "Knall",
+"article": "der",
+"translation": "bang"
+},
+{
+"word": "Knistern",
+"article": "das",
+"translation": "crackling"
+},
+{
+"word": "Knochen",
+"article": "der",
+"translation": "bone"
+},
+{
+"word": "Kopf",
+"article": "der",
+"translation": "head"
+},
+{
+"word": "Körper",
+"article": "der",
+"translation": "body"
+},
+{
+"word": "Korridor",
+"article": "der",
+"translation": "corridor"
+},
+{
+"word": "Kraft",
+"article": "die",
+"translation": "power"
+},
+{
+"word": "Krankenhaus",
+"article": "das",
+"translation": "hospital"
+},
+{
+"word": "Kreuz",
+"article": "das",
+"translation": "cross"
+},
+{
+"word": "Küche",
+"article": "die",
+"translation": "kitchen"
+},
+{
+"word": "Kuss",
+"article": "der",
+"translation": "kiss"
+},
+{
+"word": "Labyrinth",
+"article": "das",
+"translation": "labyrinth"
+},
+{
+"word": "Lachen",
+"article": "das",
+"translation": "laughter"
+},
+{
+"word": "Lampe",
+"article": "die",
+"translation": "lamp"
+},
+{
+"word": "Leiche",
+"article": "die",
+"translation": "corpse"
+},
+{
+"word": "Licht",
+"article": "das",
+"translation": "light"
+},
+{
+"word": "Lied",
+"article": "das",
+"translation": "song"
+},
+{
+"word": "Loch",
+"article": "das",
+"translation": "hole"
+},
+{
+"word": "Luft",
+"article": "die",
+"translation": "air"
+},
+{
+"word": "Magie",
+"article": "die",
+"translation": "magic"
+},
+{
+"word": "Mann",
+"article": "der",
+"translation": "man"
+},
+{
+"word": "Mantel",
+"article": "der",
+"translation": "coat"
+},
+{
+"word": "Maske",
+"article": "die",
+"translation": "mask"
+},
+{
+"word": "Mauer",
+"article": "die",
+"translation": "wall"
+},
+{
+"word": "Maus",
+"article": "die",
+"translation": "mouse"
+},
+{
+"word": "Messer",
+"article": "das",
+"translation": "knife"
+},
+{
+"word": "Mitternacht",
+"article": "die",
+"translation": "midnight"
+},
+{
+"word": "Mond",
+"article": "der",
+"translation": "moon"
+},
+{
+"word": "Moor",
+"article": "das",
+"translation": "moor"
+},
+{
+"word": "Monster",
+"article": "das",
+"translation": "monster"
+},
+{
+"word": "Mord",
+"article": "der",
+"translation": "murder"
+},
+{
+"word": "Mörder",
+"article": "der",
+"translation": "murderer"
+},
+{
+"word": "Mumie",
+"article": "die",
+"translation": "mummy"
+},
+{
+"word": "Mund",
+"article": "der",
+"translation": "mouth"
+},
+{
+"word": "Mut",
+"article": "der",
+"translation": "courage"
+},
+{
+"word": "Nacht",
+"article": "die",
+"translation": "night"
+},
+{
+"word": "Name",
+"article": "der",
+"translation": "name"
+},
+{
+"word": "Nase",
+"article": "die",
+"translation": "nose"
+},
+{
+"word": "Nebel",
+"article": "der",
+"translation": "fog"
+},
+{
+"word": "Netz",
+"article": "das",
+"translation": "net"
+},
+{
+"word": "Opfer",
+"article": "das",
+"translation": "victim"
+},
+{
+"word": "Ort",
+"article": "der",
+"translation": "place"
+},
+{
+"word": "Panik",
+"article": "die",
+"translation": "panic"
+},
+{
+"word": "Park",
+"article": "der",
+"translation": "park"
+},
+{
+"word": "Pfad",
+"article": "der",
+"translation": "path"
+},
+{
+"word": "Puppe",
+"article": "die",
+"translation": "doll"
+},
+{
+"word": "Qual",
+"article": "die",
+"translation": "agony"
+},
+{
+"word": "Rabe",
+"article": "der",
+"translation": "raven"
+},
+{
+"word": "Radio",
+"article": "das",
+"translation": "radio"
+},
+{
+"word": "Rand",
+"article": "der",
+"translation": "edge"
+},
+{
+"word": "Rätsel",
+"article": "das",
+"translation": "riddle"
+},
+{
+"word": "Ratte",
+"article": "die",
+"translation": "rat"
+},
+{
+"word": "Rauch",
+"article": "der",
+"translation": "smoke"
+},
+{
+"word": "Raum",
+"article": "der",
+"translation": "room"
+},
+{
+"word": "Regen",
+"article": "der",
+"translation": "rain"
+},
+{
+"word": "Riese",
+"article": "der",
+"translation": "giant"
+},
+{
+"word": "Ring",
+"article": "der",
+"translation": "ring"
+},
+{
+"word": "Ritual",
+"article": "das",
+"translation": "ritual"
+},
+{
+"word": "Ruine",
+"article": "die",
+"translation": "ruin"
+},
+{
+"word": "Rumpeln",
+"article": "das",
+"translation": "rumbling"
+},
+{
+"word": "Sarg",
+"article": "der",
+"translation": "coffin"
+},
+{
+"word": "Schatten",
+"article": "der",
+"translation": "shadow"
+},
+{
+"word": "Schatz",
+"article": "der",
+"translation": "treasure"
+},
+{
+"word": "Schrei",
+"article": "der",
+"translation": "scream"
+},
+{
+"word": "Schritt",
+"article": "der",
+"translation": "step"
+},
+{
+"word": "Schuld",
+"article": "die",
+"translation": "guilt"
+},
+{
+"word": "Schlüssel",
+"article": "der",
+"translation": "key"
+},
+{
+"word": "Schloss",
+"article": "das",
+"translation": "castle"
+},
+{
+"word": "Schmerz",
+"article": "der",
+"translation": "pain"
+},
+{
+"word": "Schrank",
+"article": "der",
+"translation": "cupboard"
+},
+{
+"word": "Schrecken",
+"article": "der",
+"translation": "fright"
+},
+{
+"word": "Seil",
+"article": "das",
+"translation": "rope"
+},
+{
+"word": "Skelett",
+"article": "das",
+"translation": "skeleton"
+},
+{
+"word": "Spiegel",
+"article": "der",
+"translation": "mirror"
+},
+{
+"word": "Spiel",
+"article": "das",
+"translation": "game"
+},
+{
+"word": "Spinne",
+"article": "die",
+"translation": "spider"
+},
+{
+"word": "Spuk",
+"article": "der",
+"translation": "spook"
+},
+{
+"word": "Stadt",
+"article": "die",
+"translation": "city"
+},
+{
+"word": "Staub",
+"article": "der",
+"translation": "dust"
+},
+{
+"word": "Stein",
+"article": "der",
+"translation": "stone"
+},
+{
+"word": "Stern",
+"article": "der",
+"translation": "star"
+},
+{
+"word": "Stimme",
+"article": "die",
+"translation": "voice"
+},
+{
+"word": "Strafe",
+"article": "die",
+"translation": "punishment"
+},
+{
+"word": "Sturm",
+"article": "der",
+"translation": "storm"
+},
+{
+"word": "Sumpf",
+"article": "der",
+"translation": "swamp"
+},
+{
+"word": "Tag",
+"article": "der",
+"translation": "day"
+},
+{
+"word": "Teufel",
+"article": "der",
+"translation": "devil"
+},
+{
+"word": "Tier",
+"article": "das",
+"translation": "animal"
+},
+{
+"word": "Tod",
+"article": "der",
+"translation": "death"
+},
+{
+"word": "Tor",
+"article": "das",
+"translation": "gate"
+},
+{
+"word": "Totenkopf",
+"article": "der",
+"translation": "skull"
+},
+{
+"word": "Trank",
+"article": "der",
+"translation": "potion"
+},
+{
+"word": "Traum",
+"article": "der",
+"translation": "dream"
+},
+{
+"word": "Treppe",
+"article": "die",
+"translation": "stairs"
+},
+{
+"word": "Truhe",
+"article": "die",
+"translation": "chest"
+},
+{
+"word": "Tür",
+"article": "die",
+"translation": "door"
+},
+{
+"word": "Turm",
+"article": "der",
+"translation": "tower"
+},
+{
+"word": "Uhr",
+"article": "die",
+"translation": "clock"
+},
+{
+"word": "Vampir",
+"article": "der",
+"translation": "vampire"
+},
+{
+"word": "Versteck",
+"article": "das",
+"translation": "hiding place"
+},
+{
+"word": "Wald",
+"article": "der",
+"translation": "forest"
+},
+{
+"word": "Wand",
+"article": "die",
+"translation": "wall"
+},
+{
+"word": "Wasser",
+"article": "das",
+"translation": "water"
+},
+{
+"word": "Werwolf",
+"article": "der",
+"translation": "werewolf"
+}
+]

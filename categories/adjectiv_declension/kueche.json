@@ -1,0 +1,1002 @@
+[
+  {
+    "prefix": "Wegen des scharf",
+    "middle": " Messer",
+    "suffix": " muss man beim Schneiden vorsichtig sein.",
+    "options1": ["-en", "-es", "-e", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Wegen des scharfen Messers muss man beim Schneiden vorsichtig sein."
+  },
+  {
+    "prefix": "Der Chefkoch gibt dem neu",
+    "middle": " Praktikant",
+    "suffix": " eine wichtige Aufgabe.",
+    "options1": ["-en", "-e", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-en", "-es"],
+    "correct2": "-en",
+  "translation": "Der Chefkoch gibt dem neuen Praktikanten eine wichtige Aufgabe."
+  },
+  {
+    "prefix": "Der Duft frisch",
+    "middle": " Brot",
+    "suffix": " zieht durch das ganze Haus.",
+    "options1": ["-es", "-em", "-en", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-en"],
+    "correct2": "-es",
+    "translation": "Der Duft frischen Brotes zieht durch das ganze Haus."
+  },
+  {
+    "prefix": "Trotz des modern",
+    "middle": " Ofen",
+    "suffix": " verbrennt der Kuchen manchmal.",
+    "options1": ["-en", "-es", "-e", "-em"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-en"],
+    "correct2": "-s",
+    "translation": "Trotz des modernen Ofens verbrennt der Kuchen manchmal."
+  },
+  {
+    "prefix": "Ich helfe dem alt",
+    "middle": " Nachbar",
+    "suffix": " beim Tragen der schweren Einkäufe.",
+    "options1": ["-em", "-en", "-es", "-e"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-en"],
+    "correct2": "-n",
+    "translation": "Ich helfe dem alten Nachbarn beim Tragen der schweren Einkäufe."
+  },
+  {
+    "prefix": "Der Geschmack des teur",
+    "middle": " Wein",
+    "suffix": " ist wirklich hervorragend.",
+    "options1": ["-en", "-es", "-e", "-em"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-es",
+    "translation": "Der Geschmack des teuren Weines ist wirklich hervorragend."
+  },
+  {
+    "prefix": "Wir schenken dem nett",
+    "middle": " Kollege",
+    "suffix": " ein neues Kochbuch.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Wir schenken dem netten Kollegen ein neues Kochbuch."
+  },
+  {
+    "prefix": "Während des lang",
+    "middle": " Abendessen",
+    "suffix": " haben wir viel gelacht.",
+    "options1": ["-en", "-es", "-e", "-em"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-s",
+    "translation": "Während des langen Abendessens haben wir viel gelacht."
+  },
+  {
+    "prefix": "Die Farbe des reif",
+    "middle": " Apfel",
+    "suffix": " ist tiefrot.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-s",
+    "translation": "Die Farbe des reifen Apfels ist tiefrot."
+  },
+  {
+    "prefix": "Der Kellner bringt dem hungrig",
+    "middle": " Gast",
+    "suffix": " die Speisekarte.",
+    "options1": ["-en", "-em", "-es", "-e"],
+    "correct1": "-en",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-en",
+    "translation": "Der Kellner bringt dem hungrigen Gasten die Speisekarte."
+  },
+  {
+    "prefix": "Ein Löffel voll süß",
+    "middle": " Honig",
+    "suffix": " passt gut in den Tee.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-s",
+    "translation": "Ein Löffel voll süßen Honigs passt gut in den Tee."
+  },
+  {
+    "prefix": "Wegen eines technisch",
+    "middle": " Fehler",
+    "suffix": " funktioniert der Kühlschrank nicht.",
+    "options1": ["-en", "-es", "-er", "-em"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-s",
+    "translation": "Wegen eines technischen Fehlers funktioniert der Kühlschrank nicht."
+  },
+  {
+    "prefix": "Das Aroma des gebraten",
+    "middle": " Fleisch",
+    "suffix": " ist sehr intensiv.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-es",
+    "translation": "Das Aroma des gebratenen Fleisches ist sehr intensiv."
+  },
+  {
+    "prefix": "Der Junge hilft dem erfahren",
+    "middle": " Koch",
+    "suffix": " beim Zwiebelschneiden.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-en",
+    "translation": "Der Junge hilft dem erfahrenen Kochen beim Zwiebelschneiden."
+  },
+  {
+    "prefix": "Die Reinigung des verschmutzt",
+    "middle": " Boden",
+    "suffix": " dauert lange.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-s",
+    "translation": "Die Reinigung des verschmutzten Bodens dauert lange."
+  },
+  {
+    "prefix": "In der Küche eines gut",
+    "middle": " Restaurant",
+    "suffix": " ist es immer hektisch.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-s",
+    "translation": "In der Küche eines guten Restaurants ist es immer hektisch."
+  },
+  {
+    "prefix": "Wir stellen den Topf auf den heiß",
+    "middle": " Herd",
+    "suffix": ".",
+    "options1": ["-en", "-es", "-em", "-e"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-en"],
+    "correct2": "-",
+    "translation": "Wir stellen den Topf auf den heißen Herd."
+  },
+  {
+    "prefix": "Ein Glas kühl",
+    "middle": " Wasser",
+    "suffix": " erfrischt an heißen Tagen.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-",
+    "translation": "Ein Glas kühles Wasser erfrischt an heißen Tagen."
+  },
+  {
+    "prefix": "Die Qualität des frisch",
+    "middle": " Fisch",
+    "suffix": " ist entscheidend für das Sushi.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-es",
+    "translation": "Die Qualität des frischen Fisches ist entscheidend für das Sushi."
+  },
+  {
+    "prefix": "Das ist der Name des neu",
+    "middle": " Gericht",
+    "suffix": ".",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Das ist der Name des neuen Gerichts."
+  },
+  {
+    "prefix": "Ich nehme ein sauber",
+    "middle": " Handtuch",
+    "suffix": " zum Abtrocknen.",
+    "options1": ["-es", "-en", "-em", "-e"],
+    "correct1": "-es",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-",
+    "translation": "Ich nehme ein sauberes Handtuch zum Abtrocknen."
+  },
+  {
+    "prefix": "Wegen des bitter",
+    "middle": " Geschmack",
+    "suffix": " mag ich keinen Chicorée.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Wegen des bitteren Geschmacks mag ich keinen Chicorée."
+  },
+  {
+    "prefix": "Die Schärfe der klein",
+    "middle": " Chili",
+    "suffix": " wird oft unterschätzt.",
+    "options1": ["-en", "-e", "-er", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-en"],
+    "correct2": "-",
+    "translation": "Die Schärfe der kleinen Chili wird oft unterschätzt."
+  },
+  {
+    "prefix": "Wir danken dem freundlich",
+    "middle": " Lieferant",
+    "suffix": " für die pünktliche Lieferung.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-en", "-s"],
+    "correct2": "-en",
+    "translation": "Wir danken dem freundlichen Lieferanten für die pünktliche Lieferung."
+  },
+  {
+    "prefix": "Die Hitze des glühend",
+    "middle": " Grill",
+    "suffix": " ist sehr stark.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Die Hitze des glühenden Grills ist sehr stark."
+  },
+  {
+    "prefix": "Er isst ein belegt",
+    "middle": " Brötchen",
+    "suffix": " in der Pause.",
+    "options1": ["-es", "-en", "-em", "-e"],
+    "correct1": "-es",
+    "options2": ["-", "-s", "-n", "-en"],
+    "correct2": "-",
+    "translation": "Er isst ein belegtes Brötchen in der Pause."
+  },
+  {
+    "prefix": "Der Glanz des poliert",
+    "middle": " Besteck",
+    "suffix": " sieht toll aus.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Der Glanz des polierten Bestecks sieht toll aus."
+  },
+  {
+    "prefix": "Wir brauchen einen groß",
+    "middle": " Topf",
+    "suffix": " für die Suppe.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-",
+    "translation": "Wir brauchen einen großen Topf für die Suppe."
+  },
+  {
+    "prefix": "Das ist die Tasche des fremd",
+    "middle": " Mensch",
+    "suffix": " in unserer Küche.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-en", "-s", "-es"],
+    "correct2": "-en",
+    "translation": "Das ist die Tasche des fremden Menschen in unserer Küche."
+  },
+  {
+    "prefix": "Die Wirkung stark",
+    "middle": " Kaffee",
+    "suffix": " lässt schnell nach.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Die Wirkung starken Kaffees lässt schnell nach."
+  },
+  {
+    "prefix": "Ich gebe dem klein",
+    "middle": " Hund",
+    "suffix": " ein Stück Wurst.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-e", "-en"],
+    "correct2": "-",
+    "translation": "Ich gebe dem kleinen Hund ein Stück Wurst."
+  },
+  {
+    "prefix": "Anstatt eines süß",
+    "middle": " Nachtisch",
+    "suffix": " esse ich lieber Käse.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-es", "-s", "-n"],
+    "correct2": "-es",
+    "translation": "Anstatt eines süßen Nachtisches esse ich lieber Käse."
+  },
+  {
+    "prefix": "Das Design des neu",
+    "middle": " Kühlschrank",
+    "suffix": " ist sehr modern.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Das Design des neuen Kühlschranks ist sehr modern."
+  },
+  {
+    "prefix": "Sie reicht dem alt",
+    "middle": " Herr",
+    "suffix": " eine Tasse Tee.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-en", "-s"],
+    "correct2": "-n",
+    "translation": "Sie reicht dem alten Herrn eine Tasse Tee."
+  },
+  {
+    "prefix": "Die Konsistenz flüssig",
+    "middle": " Teig",
+    "suffix": " ist genau richtig.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-es",
+    "translation": "Die Konsistenz flüssigen Teiges ist genau richtig."
+  },
+  {
+    "prefix": "Ein scharf",
+    "middle": " Messer",
+    "suffix": " gehört in jede Küche.",
+    "options1": ["-es", "-en", "-er", "-em"],
+    "correct1": "-es",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-",
+    "translation": "Ein scharfes Messer gehört in jede Küche."
+  },
+  {
+    "prefix": "Der Geruch faul",
+    "middle": " Ei",
+    "suffix": " ist schrecklich.",
+    "options1": ["-er", "-en", "-es", "-em"],
+    "correct1": "-er",
+    "options2": ["-", "-er", "-s", "-es"],
+    "correct2": "-er",
+    "translation": "Der Geruch fauler Eier ist schrecklich."
+  },
+  {
+    "prefix": "Wir hören dem klug",
+    "middle": " Experte",
+    "suffix": " beim Kochen zu.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Wir hören dem klugen Experten beim Kochen zu."
+  },
+  {
+    "prefix": "Wegen des hoh",
+    "middle": " Preis",
+    "suffix": " kaufen wir den Bio-Kaffee nicht.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-es", "-s", "-n"],
+    "correct2": "-es",
+    "translation": "Wegen des hohen Preises kaufen wir den Bio-Kaffee nicht."
+  },
+  {
+    "prefix": "Die Farbe grün",
+    "middle": " Tee",
+    "suffix": " ist sehr beruhigend.",
+    "options1": ["-en", "-es", "-er", "-em"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Die Farbe grünen Tees ist sehr beruhigend."
+  },
+  {
+    "prefix": "Ich stelle das warm",
+    "middle": " Essen",
+    "suffix": " auf den Tisch.",
+    "options1": ["-e", "-en", "-es", "-em"],
+    "correct1": "-e",
+    "options2": ["-", "-s", "-n", "-en"],
+    "correct2": "-",
+    "translation": "Ich stelle das warme Essen auf den Tisch."
+  },
+  {
+    "prefix": "Der Erfolg des jung",
+    "middle": " Koch",
+    "suffix": " ist beeindruckend.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-es", "-s", "-en"],
+    "correct2": "-es",
+    "translation": "Der Erfolg des jungen Koches ist beeindruckend."
+  },
+  {
+    "prefix": "Kalt",
+    "middle": " Wasser",
+    "suffix": " hilft gegen Verbrennungen.",
+    "options1": ["-es", "-en", "-er", "-em"],
+    "correct1": "-es",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-",
+    "translation": "Kaltes Wasser hilft gegen Verbrennungen."
+  },
+  {
+    "prefix": "Wir folgen dem Rat des erfahren",
+    "middle": " Kollege",
+    "suffix": ".",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Wir folgen dem Rat des erfahrenen Kollegen."
+  },
+  {
+    "prefix": "Das Ende des toll",
+    "middle": " Fest",
+    "suffix": " war sehr spät.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-es", "-s", "-n"],
+    "correct2": "-es",
+    "translation": "Das Ende des tollen Festes war sehr spät."
+  },
+  {
+    "prefix": "Geben Sie dem klein",
+    "middle": " Junge",
+    "suffix": " bitte einen Keks.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Geben Sie dem kleinen Jungen bitte einen Keks."
+  },
+  {
+    "prefix": "Das Gewicht des schwer",
+    "middle": " Sack",
+    "suffix": " Kartoffeln überrascht mich.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-es", "-s", "-n"],
+    "correct2": "-es",
+    "translation": "Das Gewicht des schweren Sackes Kartoffeln überrascht mich."
+  },
+  {
+    "prefix": "Ein gut",
+    "middle": " Wein",
+    "suffix": " braucht Zeit zum Atmen.",
+    "options1": ["-er", "-en", "-es", "-em"],
+    "correct1": "-er",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-",
+    "translation": "Ein guter Wein braucht Zeit zum Atmen."
+  },
+  {
+    "prefix": "Die Zubereitung eines lecker",
+    "middle": " Salat",
+    "suffix": " ist einfach.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Die Zubereitung eines leckeren Salats ist einfach."
+  },
+  {
+    "prefix": "Er zeigt dem neugierig",
+    "middle": " Tourist",
+    "suffix": " die Küche.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-en",
+    "translation": "Er zeigt dem neugierigen Touristen die Küche."
+  },
+  {
+    "prefix": "Der Boden des schmutzig",
+    "middle": " Topf",
+    "suffix": " muss geschrubbt werden.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-es", "-s", "-n"],
+    "correct2": "-es",
+    "translation": "Der Boden des schmutzigen Topfes muss geschrubbt werden."
+  },
+  {
+    "prefix": "Frisch",
+    "middle": " Saft",
+    "suffix": " enthält viele Vitamine.",
+    "options1": ["-er", "-en", "-es", "-em"],
+    "correct1": "-er",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-",
+    "translation": "Frischer Saft enthält viele Vitamine."
+  },
+  {
+    "prefix": "Das ist das Haus des reich",
+    "middle": " Präsident",
+    "suffix": ".",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-en", "-s", "-es"],
+    "correct2": "-en",
+    "translation": "Das ist das Haus des reichen Präsidenten."
+  },
+  {
+    "prefix": "Die Form des rund",
+    "middle": " Teller",
+    "suffix": " ist klassisch.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-s",
+    "translation": "Die Form des runden Tellers ist klassisch."
+  },
+  {
+    "prefix": "Ich helfe der krank",
+    "middle": " Mutter",
+    "suffix": " in der Küche.",
+    "options1": ["-en", "-er", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-",
+    "translation": "Ich helfe der kranken Mutter in der Küche."
+  },
+  {
+    "prefix": "Wegen des stark",
+    "middle": " Wind",
+    "suffix": " bleibt das Küchenfenster zu.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-es", "-s", "-n"],
+    "correct2": "-es",
+    "translation": "Wegen des starken Windes bleibt das Küchenfenster zu."
+  },
+  {
+    "prefix": "Das ist der Korb des klein",
+    "middle": " Hase",
+    "suffix": ".",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Das ist der Korb des kleinen Hasen."
+  },
+  {
+    "prefix": "Süß",
+    "middle": " Nachtisch",
+    "suffix": " essen fast alle Kinder gern.",
+    "options1": ["-en", "-er", "-es", "-em"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-",
+    "translation": "Süßen Nachtisch essen fast alle Kinder gern."
+  },
+  {
+    "prefix": "Die Blätter des grün",
+    "middle": " Salat",
+    "suffix": " sind knackig.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Die Blätter des grünen Salats sind knackig."
+  },
+  {
+    "prefix": "Er gibt dem hungrig",
+    "middle": " Bär",
+    "suffix": " einen Apfel.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-en",
+    "translation": "Er gibt dem hungrigen Bären einen Apfel."
+  },
+  {
+    "prefix": "Die Hitze siedend",
+    "middle": " Wasser",
+    "suffix": " ist gefährlich.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Die Hitze siedenden Wassers ist gefährlich."
+  },
+  {
+    "prefix": "Wir brauchen ein neu",
+    "middle": " Sieb",
+    "suffix": ".",
+    "options1": ["-es", "-en", "-em", "-e"],
+    "correct1": "-es",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-",
+    "translation": "Wir brauchen ein neues Sieb."
+  },
+  {
+    "prefix": "Der Preis eines rot",
+    "middle": " Paprika",
+    "suffix": " ist gestiegen.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-s",
+    "translation": "Der Preis eines roten Paprikas ist gestiegen."
+  },
+  {
+    "prefix": "Sie schenkt dem alt",
+    "middle": " Nachbar",
+    "suffix": " ein Glas Marmelade.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-en", "-s"],
+    "correct2": "-n",
+    "translation": "Sie schenkt dem alten Nachbarn ein Glas Marmelade."
+  },
+  {
+    "prefix": "Die Farbe des hell",
+    "middle": " Bier",
+    "suffix": " ist golden.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Die Farbe des hellen Bieres ist golden."
+  },
+  {
+    "prefix": "Ein warm",
+    "middle": " Kakao",
+    "suffix": " schmeckt im Winter am besten.",
+    "options1": ["-er", "-en", "-es", "-em"],
+    "correct1": "-er",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-",
+    "translation": "Ein warmer Kakao schmeckt im Winter am besten."
+  },
+  {
+    "prefix": "Die Stimme des laut",
+    "middle": " Mensch",
+    "suffix": " nervt in der Küche.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-en", "-s", "-es"],
+    "correct2": "-en",
+    "translation": "Die Stimme des lauten Menschen nervt in der Küche."
+  },
+  {
+    "prefix": "Der Deckel des hölzern",
+    "middle": " Fass",
+    "suffix": " ist schwer.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-es", "-s", "-n"],
+    "correct2": "-es",
+    "translation": "Der Deckel des hölzernen Fasses ist schwer."
+  },
+  {
+    "prefix": "Ich vertraue dem erfahren",
+    "middle": " Biologe",
+    "suffix": " bei der Pilzauswahl.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Ich vertraue dem erfahrenen Biologen bei der Pilzauswahl."
+  },
+  {
+    "prefix": "Wegen eines faul",
+    "middle": " Zahn",
+    "suffix": " kann er nicht kauen.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-es", "-s", "-n"],
+    "correct2": "-es",
+    "translation": "Wegen eines faulen Zahnes kann er nicht kauen."
+  },
+  {
+    "prefix": "Das Aroma geröstet",
+    "middle": " Kaffee",
+    "suffix": " ist herrlich.",
+    "options1": ["-en", "-es", "-er", "-em"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Das Aroma gerösteten Kaffees ist herrlich."
+  },
+  {
+    "prefix": "Der Kellner gibt dem klein",
+    "middle": " Kind",
+    "suffix": " einen Löffel.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-er"],
+    "correct2": "-",
+    "translation": "Der Kellner gibt dem kleinen Kind einen Löffel."
+  },
+  {
+    "prefix": "Die Reinigung des teur",
+    "middle": " Teppich",
+    "suffix": " in der Wohnküche ist schwierig.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Die Reinigung des teuren Teppichs in der Wohnküche ist schwierig."
+  },
+  {
+    "prefix": "Ein schmutzig",
+    "middle": " Glas",
+    "suffix": " stelle ich in die Spülmaschine.",
+    "options1": ["-es", "-en", "-er", "-em"],
+    "correct1": "-es",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-",
+    "translation": "Ein schmutziges Glas stelle ich in die Spülmaschine."
+  },
+  {
+    "prefix": "Wir warten auf den neu",
+    "middle": " Kollege",
+    "suffix": ".",
+    "options1": ["-en", "-es", "-e", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Wir warten auf den neuen Kollegen."
+  },
+  {
+    "prefix": "Der Kern eines reif",
+    "middle": " Pfirsich",
+    "suffix": " ist hart.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Der Kern eines reifen Pfirsichs ist hart."
+  },
+  {
+    "prefix": "Das ist die Schüssel des grau",
+    "middle": " Elefant",
+    "suffix": " im Zoo-Restaurant.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-en",
+    "translation": "Das ist die Schüssel des grauen Elefanten im Zoo-Restaurant."
+  },
+  {
+    "prefix": "Die Qualität gut",
+    "middle": " Fleisch",
+    "suffix": " erkennt man sofort.",
+    "options1": ["-en", "-es", "-er", "-em"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-es",
+    "translation": "Die Qualität guten Fleisches erkennt man sofort."
+  },
+  {
+    "prefix": "Er hilft dem alt",
+    "middle": " Patient",
+    "suffix": " beim Essen.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-en",
+    "translation": "Er hilft dem alten Patienten beim Essen."
+  },
+  {
+    "prefix": "Der Rand des weiß",
+    "middle": " Teller",
+    "suffix": " ist blau.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-s",
+    "translation": "Der Rand des weißen Tellers ist blau."
+  },
+  {
+    "prefix": "Wir trinken ein Glas kalt",
+    "middle": " Milch",
+    "suffix": ".",
+    "options1": ["-e", "-er", "-en", "-es"],
+    "correct1": "-e",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-",
+    "translation": "Wir trinken ein Glas kalte Milch."
+  },
+  {
+    "prefix": "Wegen eines klein",
+    "middle": " Unfall",
+    "suffix": " ist die Suppe versalzen.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Wegen eines kleinen Unfalls ist die Suppe versalzen."
+  },
+  {
+    "prefix": "Das ist der Hund des jung",
+    "middle": " Polizist",
+    "suffix": ".",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-en",
+    "translation": "Das ist der Hund des jungen Polizisten."
+  },
+  {
+    "prefix": "Die Schale braun",
+    "middle": " Ei",
+    "suffix": " ist oft dicker.",
+    "options1": ["-er", "-en", "-es", "-em"],
+    "correct1": "-er",
+    "options2": ["-", "-er", "-s", "-es"],
+    "correct2": "-er",
+    "translation": "Die Schale brauner Eier ist oft dicker."
+  },
+  {
+    "prefix": "Er antwortet dem höflich",
+    "middle": " Beamte",
+    "suffix": ".",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Er antwortet dem höflichen Beamten."
+  },
+  {
+    "prefix": "Der Boden des hoh",
+    "middle": " Glas",
+    "suffix": " ist dick.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-es", "-s", "-n"],
+    "correct2": "-es",
+    "translation": "Der Boden des hohen Glases ist dick."
+  },
+  {
+    "prefix": "Wir brauchen einen neu",
+    "middle": " Wasserhahn",
+    "suffix": " für die Spüle.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-",
+    "translation": "Wir brauchen einen neuen Wasserhahn für die Spüle."
+  },
+  {
+    "prefix": "Das ist das Spielzeug des klein",
+    "middle": " Junge",
+    "suffix": ".",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Das ist das Spielzeug des kleinen Jungen."
+  },
+  {
+    "prefix": "Die Kraft stark",
+    "middle": " Arm",
+    "suffix": " ist beim Teigkneten wichtig.",
+    "options1": ["-er", "-en", "-es", "-em"],
+    "correct1": "-er",
+    "options2": ["-", "-e", "-s", "-es"],
+    "correct2": "-e",
+    "translation": "Die Kraft starker Arme ist beim Teigkneten wichtig."
+  },
+  {
+    "prefix": "Ich glaube dem freundlich",
+    "middle": " Zeuge",
+    "suffix": ".",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Ich glaube dem freundlichen Zeugen."
+  },
+  {
+    "prefix": "Der Geschmack des frisch",
+    "middle": " Gemüse",
+    "suffix": " ist unschlagbar.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Der Geschmack des frischen Gemüses ist unschlagbar."
+  },
+  {
+    "prefix": "Wir kaufen ein groß",
+    "middle": " Stück",
+    "suffix": " Käse.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-",
+    "translation": "Wir kaufen ein großes Stück Käse."
+  },
+  {
+    "prefix": "Trotz des schlecht",
+    "middle": " Wetter",
+    "suffix": " grillen wir draußen.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-s",
+    "translation": "Trotz des schlechten Wetters grillen wir draußen."
+  },
+  {
+    "prefix": "Er gibt dem hungrig",
+    "middle": " Löwe",
+    "suffix": " Fleisch.",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Er gibt dem hungrigen Löwen Fleisch."
+  },
+  {
+    "prefix": "Die Farbe des dunkl",
+    "middle": " Brot",
+    "suffix": " gefällt mir.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-es", "-s", "-n"],
+    "correct2": "-es",
+    "translation": "Die Farbe des dunklen Brotes gefällt mir."
+  },
+  {
+    "prefix": "Ich nehme eine Scheibe frisch",
+    "middle": " Schinken",
+    "suffix": ".",
+    "options1": ["-en", "-es", "-er", "-em"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Ich nehme eine Scheibe frischen Schinkens."
+  },
+  {
+    "prefix": "Der Rat eines gut",
+    "middle": " Freund",
+    "suffix": " ist wertvoll.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-es", "-s", "-n"],
+    "correct2": "-es",
+    "translation": "Der Rat eines guten Freundes ist wertvoll."
+  },
+  {
+    "prefix": "Wir danken dem fleißig",
+    "middle": " Student",
+    "suffix": ".",
+    "options1": ["-en", "-em", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-en",
+    "translation": "Wir danken dem fleißigen Studenten."
+  },
+  {
+    "prefix": "Das Aroma edel",
+    "middle": " Gewürz",
+    "suffix": " ist teuer.",
+    "options1": ["-er", "-en", "-es", "-em"],
+    "correct1": "-er",
+    "options2": ["-", "-e", "-s", "-es"],
+    "correct2": "-e",
+    "translation": "Das Aroma edler Gewürze ist teuer."
+  },
+  {
+    "prefix": "Das ist das Ende des harten",
+    "middle": " Tag",
+    "suffix": " in der Küche.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-es", "-s", "-n"],
+    "correct2": "-es",
+    "translation": "Das ist das Ende des harten Tages in der Küche."
+  }
+]

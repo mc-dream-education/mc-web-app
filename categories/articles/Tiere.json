@@ -1,0 +1,1012 @@
+[
+{
+"word": "Hund",
+"article": "der",
+"translation": "dog"
+},
+{
+"word": "Katze",
+"article": "die",
+"translation": "cat"
+},
+{
+"word": "Maus",
+"article": "die",
+"translation": "mouse"
+},
+{
+"word": "Pferd",
+"article": "das",
+"translation": "horse"
+},
+{
+"word": "Kuh",
+"article": "die",
+"translation": "cow"
+},
+{
+"word": "Schaf",
+"article": "das",
+"translation": "sheep"
+},
+{
+"word": "Ziege",
+"article": "die",
+"translation": "goat"
+},
+{
+"word": "Schwein",
+"article": "das",
+"translation": "pig"
+},
+{
+"word": "Huhn",
+"article": "das",
+"translation": "chicken"
+},
+{
+"word": "Hahn",
+"article": "der",
+"translation": "rooster"
+},
+{
+"word": "Ente",
+"article": "die",
+"translation": "duck"
+},
+{
+"word": "Gans",
+"article": "die",
+"translation": "goose"
+},
+{
+"word": "Esel",
+"article": "der",
+"translation": "donkey"
+},
+{
+"word": "Kamel",
+"article": "das",
+"translation": "camel"
+},
+{
+"word": "Elefant",
+"article": "der",
+"translation": "elephant"
+},
+{
+"word": "Löwe",
+"article": "der",
+"translation": "lion"
+},
+{
+"word": "Tiger",
+"article": "der",
+"translation": "tiger"
+},
+{
+"word": "Bär",
+"article": "der",
+"translation": "bear"
+},
+{
+"word": "Wolf",
+"article": "der",
+"translation": "wolf"
+},
+{
+"word": "Fuchs",
+"article": "der",
+"translation": "fox"
+},
+{
+"word": "Hase",
+"article": "der",
+"translation": "hare"
+},
+{
+"word": "Kaninchen",
+"article": "das",
+"translation": "rabbit"
+},
+{
+"word": "Reh",
+"article": "das",
+"translation": "deer"
+},
+{
+"word": "Hirsch",
+"article": "der",
+"translation": "stag"
+},
+{
+"word": "Eichhörnchen",
+"article": "das",
+"translation": "squirrel"
+},
+{
+"word": "Igel",
+"article": "der",
+"translation": "hedgehog"
+},
+{
+"word": "Maulwurf",
+"article": "der",
+"translation": "mole"
+},
+{
+"word": "Vogel",
+"article": "der",
+"translation": "bird"
+},
+{
+"word": "Adler",
+"article": "der",
+"translation": "eagle"
+},
+{
+"word": "Eule",
+"article": "die",
+"translation": "owl"
+},
+{
+"word": "Papagei",
+"article": "der",
+"translation": "parrot"
+},
+{
+"word": "Pinguin",
+"article": "der",
+"translation": "penguin"
+},
+{
+"word": "Strauß",
+"article": "der",
+"translation": "ostrich"
+},
+{
+"word": "Fisch",
+"article": "der",
+"translation": "fish"
+},
+{
+"word": "Hai",
+"article": "der",
+"translation": "shark"
+},
+{
+"word": "Wal",
+"article": "der",
+"translation": "whale"
+},
+{
+"word": "Delfin",
+"article": "der",
+"translation": "dolphin"
+},
+{
+"word": "Krake",
+"article": "die",
+"translation": "octopus"
+},
+{
+"word": "Schildkröte",
+"article": "die",
+"translation": "turtle"
+},
+{
+"word": "Frosch",
+"article": "der",
+"translation": "frog"
+},
+{
+"word": "Schlange",
+"article": "die",
+"translation": "snake"
+},
+{
+"word": "Spinne",
+"article": "die",
+"translation": "spider"
+},
+{
+"word": "Biene",
+"article": "die",
+"translation": "bee"
+},
+{
+"word": "Ameise",
+"article": "die",
+"translation": "ant"
+},
+{
+"word": "Fliege",
+"article": "die",
+"translation": "fly"
+},
+{
+"word": "Käfer",
+"article": "der",
+"translation": "beetle"
+},
+{
+"word": "Schmetterling",
+"article": "der",
+"translation": "butterfly"
+},
+{
+"word": "Wurm",
+"article": "der",
+"translation": "worm"
+},
+{
+"word": "Schnecke",
+"article": "die",
+"translation": "snail"
+},
+{
+"word": "Futter",
+"article": "das",
+"translation": "feed"
+},
+{
+"word": "Gras",
+"article": "das",
+"translation": "grass"
+},
+{
+"word": "Heu",
+"article": "das",
+"translation": "hay"
+},
+{
+"word": "Stroh",
+"article": "das",
+"translation": "straw"
+},
+{
+"word": "Korn",
+"article": "das",
+"translation": "grain"
+},
+{
+"word": "Weizen",
+"article": "der",
+"translation": "wheat"
+},
+{
+"word": "Hafer",
+"article": "der",
+"translation": "oats"
+},
+{
+"word": "Mais",
+"article": "der",
+"translation": "corn"
+},
+{
+"word": "Salat",
+"article": "der",
+"translation": "lettuce"
+},
+{
+"word": "Nuss",
+"article": "die",
+"translation": "nut"
+},
+{
+"word": "Beere",
+"article": "die",
+"translation": "berry"
+},
+{
+"word": "Insekt",
+"article": "das",
+"translation": "insect"
+},
+{
+"word": "Samen",
+"article": "der",
+"translation": "seed"
+},
+{
+"word": "Kern",
+"article": "der",
+"translation": "kernel"
+},
+{
+"word": "Honig",
+"article": "der",
+"translation": "honey"
+},
+{
+"word": "Milch",
+"article": "die",
+"translation": "milk"
+},
+{
+"word": "Wasser",
+"article": "das",
+"translation": "water"
+},
+{
+"word": "Knochen",
+"article": "der",
+"translation": "bone"
+},
+{
+"word": "Fleisch",
+"article": "das",
+"translation": "meat"
+},
+{
+"word": "Apfel",
+"article": "der",
+"translation": "apple"
+},
+{
+"word": "Karotte",
+"article": "die",
+"translation": "carrot"
+},
+{
+"word": "Beute",
+"article": "die",
+"translation": "prey"
+},
+{
+"word": "Nahrung",
+"article": "die",
+"translation": "nourishment"
+},
+{
+"word": "Schnabel",
+"article": "der",
+"translation": "beak"
+},
+{
+"word": "Rüssel",
+"article": "der",
+"translation": "trunk"
+},
+{
+"word": "Maul",
+"article": "das",
+"translation": "mouth"
+},
+{
+"word": "Pfote",
+"article": "die",
+"translation": "paw"
+},
+{
+"word": "Huf",
+"article": "der",
+"translation": "hoof"
+},
+{
+"word": "Horn",
+"article": "das",
+"translation": "horn"
+},
+{
+"word": "Kralle",
+"article": "die",
+"translation": "claw"
+},
+{
+"word": "Fell",
+"article": "das",
+"translation": "fur"
+},
+{
+"word": "Feder",
+"article": "die",
+"translation": "feather"
+},
+{
+"word": "Ei",
+"article": "das",
+"translation": "egg"
+},
+{
+"word": "Nest",
+"article": "das",
+"translation": "nest"
+},
+{
+"word": "Stall",
+"article": "der",
+"translation": "stable"
+},
+{
+"word": "Käfig",
+"article": "der",
+"translation": "cage"
+},
+{
+"word": "Aquarium",
+"article": "das",
+"translation": "aquarium"
+},
+{
+"word": "Terrarium",
+"article": "das",
+"translation": "terrarium"
+},
+{
+"word": "Weide",
+"article": "die",
+"translation": "pasture"
+},
+{
+"word": "Wiese",
+"article": "die",
+"translation": "meadow"
+},
+{
+"word": "Wald",
+"article": "der",
+"translation": "forest"
+},
+{
+"word": "Dschungel",
+"article": "der",
+"translation": "jungle"
+},
+{
+"word": "Ozean",
+"article": "der",
+"translation": "ocean"
+},
+{
+"word": "See",
+"article": "der",
+"translation": "lake"
+},
+{
+"word": "Fluss",
+"article": "der",
+"translation": "river"
+},
+{
+"word": "Wüste",
+"article": "die",
+"translation": "desert"
+},
+{
+"word": "Berg",
+"article": "der",
+"translation": "mountain"
+},
+{
+"word": "Höhle",
+"article": "die",
+"translation": "cave"
+},
+{
+"word": "Affe",
+"article": "der",
+"translation": "monkey"
+},
+{
+"word": "Gorilla",
+"article": "der",
+"translation": "gorilla"
+},
+{
+"word": "Schimpanse",
+"article": "der",
+"translation": "chimpanzee"
+},
+{
+"word": "Zebra",
+"article": "das",
+"translation": "zebra"
+},
+{
+"word": "Giraffe",
+"article": "die",
+"translation": "giraffe"
+},
+{
+"word": "Nilpferd",
+"article": "das",
+"translation": "hippo"
+},
+{
+"word": "Krokodil",
+"article": "das",
+"translation": "crocodile"
+},
+{
+"word": "Alligator",
+"article": "der",
+"translation": "alligator"
+},
+{
+"word": "Landschildkröte",
+"article": "die",
+"translation": "tortoise"
+},
+{
+"word": "Echse",
+"article": "die",
+"translation": "lizard"
+},
+{
+"word": "Fledermaus",
+"article": "die",
+"translation": "bat"
+},
+{
+"word": "Ratte",
+"article": "die",
+"translation": "rat"
+},
+{
+"word": "Hamster",
+"article": "der",
+"translation": "hamster"
+},
+{
+"word": "Meerschweinchen",
+"article": "das",
+"translation": "guinea pig"
+},
+{
+"word": "Goldfisch",
+"article": "der",
+"translation": "goldfish"
+},
+{
+"word": "Forelle",
+"article": "die",
+"translation": "trout"
+},
+{
+"word": "Lachs",
+"article": "der",
+"translation": "salmon"
+},
+{
+"word": "Krebs",
+"article": "der",
+"translation": "crab"
+},
+{
+"word": "Garnele",
+"article": "die",
+"translation": "shrimp"
+},
+{
+"word": "Qualle",
+"article": "die",
+"translation": "jellyfish"
+},
+{
+"word": "Seestern",
+"article": "der",
+"translation": "starfish"
+},
+{
+"word": "Robbe",
+"article": "die",
+"translation": "seal"
+},
+{
+"word": "Seelöwe",
+"article": "der",
+"translation": "sea lion"
+},
+{
+"word": "Eisbär",
+"article": "der",
+"translation": "polar bear"
+},
+{
+"word": "Rentier",
+"article": "das",
+"translation": "reindeer"
+},
+{
+"word": "Elch",
+"article": "der",
+"translation": "elk"
+},
+{
+"word": "Bison",
+"article": "der",
+"translation": "bison"
+},
+{
+"word": "Büffel",
+"article": "der",
+"translation": "buffalo"
+},
+{
+"word": "Nashorn",
+"article": "das",
+"translation": "rhino"
+},
+{
+"word": "Leopard",
+"article": "der",
+"translation": "leopard"
+},
+{
+"word": "Gepard",
+"article": "der",
+"translation": "cheetah"
+},
+{
+"word": "Hyäne",
+"article": "die",
+"translation": "hyena"
+},
+{
+"word": "Pavian",
+"article": "der",
+"translation": "baboon"
+},
+{
+"word": "Faultier",
+"article": "das",
+"translation": "sloth"
+},
+{
+"word": "Koala",
+"article": "der",
+"translation": "koala"
+},
+{
+"word": "Känguru",
+"article": "das",
+"translation": "kangaroo"
+},
+{
+"word": "Schnabeltier",
+"article": "das",
+"translation": "platypus"
+},
+{
+"word": "Kolibri",
+"article": "der",
+"translation": "hummingbird"
+},
+{
+"word": "Specht",
+"article": "der",
+"translation": "woodpecker"
+},
+{
+"word": "Schwan",
+"article": "der",
+"translation": "swan"
+},
+{
+"word": "Pelikan",
+"article": "der",
+"translation": "pelican"
+},
+{
+"word": "Flamingo",
+"article": "der",
+"translation": "flamingo"
+},
+{
+"word": "Falke",
+"article": "der",
+"translation": "falcon"
+},
+{
+"word": "Rabe",
+"article": "der",
+"translation": "raven"
+},
+{
+"word": "Krähe",
+"article": "die",
+"translation": "crow"
+},
+{
+"word": "Taube",
+"article": "die",
+"translation": "pigeon"
+},
+{
+"word": "Spatz",
+"article": "der",
+"translation": "sparrow"
+},
+{
+"word": "Amsel",
+"article": "die",
+"translation": "blackbird"
+},
+{
+"word": "Meise",
+"article": "die",
+"translation": "tit"
+},
+{
+"word": "Storch",
+"article": "der",
+"translation": "stork"
+},
+{
+"word": "Kranich",
+"article": "der",
+"translation": "crane"
+},
+{
+"word": "Libelle",
+"article": "die",
+"translation": "dragonfly"
+},
+{
+"word": "Wespe",
+"article": "die",
+"translation": "wasp"
+},
+{
+"word": "Hornisse",
+"article": "die",
+"translation": "hornet"
+},
+{
+"word": "Hummel",
+"article": "die",
+"translation": "bumblebee"
+},
+{
+"word": "Grashüpfer",
+"article": "der",
+"translation": "grasshopper"
+},
+{
+"word": "Heuschrecke",
+"article": "die",
+"translation": "locust"
+},
+{
+"word": "Kakerlake",
+"article": "die",
+"translation": "cockroach"
+},
+{
+"word": "Floh",
+"article": "der",
+"translation": "flea"
+},
+{
+"word": "Laus",
+"article": "die",
+"translation": "louse"
+},
+{
+"word": "Zecke",
+"article": "die",
+"translation": "tick"
+},
+{
+"word": "Skorpion",
+"article": "der",
+"translation": "scorpion"
+},
+{
+"word": "Tausendfüßler",
+"article": "der",
+"translation": "centipede"
+},
+{
+"word": "Regenwurm",
+"article": "der",
+"translation": "earthworm"
+},
+{
+"word": "Blutegel",
+"article": "der",
+"translation": "leech"
+},
+{
+"word": "Muschel",
+"article": "die",
+"translation": "mussel"
+},
+{
+"word": "Koralle",
+"article": "die",
+"translation": "coral"
+},
+{
+"word": "Alge",
+"article": "die",
+"translation": "alga"
+},
+{
+"word": "Plankton",
+"article": "das",
+"translation": "plankton"
+},
+{
+"word": "Pilz",
+"article": "der",
+"translation": "mushroom"
+},
+{
+"word": "Moos",
+"article": "das",
+"translation": "moss"
+},
+{
+"word": "Farn",
+"article": "der",
+"translation": "fern"
+},
+{
+"word": "Rinde",
+"article": "die",
+"translation": "bark"
+},
+{
+"word": "Blatt",
+"article": "das",
+"translation": "leaf"
+},
+{
+"word": "Zweig",
+"article": "der",
+"translation": "twig"
+},
+{
+"word": "Ast",
+"article": "der",
+"translation": "branch"
+},
+{
+"word": "Wurzel",
+"article": "die",
+"translation": "root"
+},
+{
+"word": "Blüte",
+"article": "die",
+"translation": "blossom"
+},
+{
+"word": "Nektar",
+"article": "der",
+"translation": "nectar"
+},
+{
+"word": "Pollen",
+"article": "der",
+"translation": "pollen"
+},
+{
+"word": "Getreide",
+"article": "das",
+"translation": "cereal"
+},
+{
+"word": "Gerste",
+"article": "die",
+"translation": "barley"
+},
+{
+"word": "Roggen",
+"article": "der",
+"translation": "rye"
+},
+{
+"word": "Hirse",
+"article": "die",
+"translation": "millet"
+},
+{
+"word": "Reis",
+"article": "der",
+"translation": "rice"
+},
+{
+"word": "Bohne",
+"article": "die",
+"translation": "bean"
+},
+{
+"word": "Erbse",
+"article": "die",
+"translation": "pea"
+},
+{
+"word": "Linse",
+"article": "die",
+"translation": "lentil"
+},
+{
+"word": "Kartoffel",
+"article": "die",
+"translation": "potato"
+},
+{
+"word": "Rübe",
+"article": "die",
+"translation": "turnip"
+},
+{
+"word": "Kürbis",
+"article": "der",
+"translation": "pumpkin"
+},
+{
+"word": "Gurke",
+"article": "die",
+"translation": "cucumber"
+},
+{
+"word": "Tomate",
+"article": "die",
+"translation": "tomato"
+},
+{
+"word": "Banane",
+"article": "die",
+"translation": "banana"
+},
+{
+"word": "Birne",
+"article": "die",
+"translation": "pear"
+},
+{
+"word": "Pflaume",
+"article": "die",
+"translation": "plum"
+},
+{
+"word": "Kirsche",
+"article": "die",
+"translation": "cherry"
+},
+{
+"word": "Traube",
+"article": "die",
+"translation": "grape"
+},
+{
+"word": "Melone",
+"article": "die",
+"translation": "melon"
+},
+{
+"word": "Pfirsich",
+"article": "der",
+"translation": "peach"
+},
+{
+"word": "Aprikose",
+"article": "die",
+"translation": "apricot"
+},
+{
+"word": "Zitrone",
+"article": "die",
+"translation": "lemon"
+},
+{
+"word": "Orange",
+"article": "die",
+"translation": "orange"
+},
+{
+"word": "Tierfutter",
+"article": "das",
+"translation": "animal feed"
+},
+{
+"word": "Allesfresser",
+"article": "der",
+"translation": "omnivore"
+}
+]

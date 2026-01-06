@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Artikeltraining | Übung</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; text-align: center; padding-top: 50px; background-color: #fcfcfc; color: #333; }
+        .nav-header { position: absolute; top: 20px; left: 20px; }
+        .stats { font-size: 18px; margin-bottom: 20px; color: #666; font-weight: bold; }
+        .feedback-message { height: 35px; color: #e67e22; font-size: 22px; margin-bottom: 10px; font-weight: 500; }
+        .word-display { color: #2ecc71; font-size: 56px; font-weight: bold; margin-bottom: 5px; }
+        .translation { color: #95a5a6; font-size: 24px; margin-bottom: 40px; font-style: italic; }
+        .btn-container { display: flex; justify-content: center; gap: 20px; }
+        .category-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; max-width: 800px; margin: 0 auto; }
+        
+        button { padding: 15px 35px; font-size: 20px; cursor: pointer; border: 2px solid #34495e; background: white; border-radius: 12px; transition: all 0.2s; font-weight: bold; }
+        button:hover { background-color: #f8f9fa; transform: translateY(-2px); }
+        .btn-article { color: #2980b9; min-width: 140px; }
+        .btn-category { background-color: #34495e; color: white; border: none; padding: 12px 24px; }
+        .btn-category:hover { background-color: #2c3e50; }
+        .btn-back { font-size: 14px; padding: 8px 15px; border-color: #ccc; color: #666; }
+        
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+
+    <div class="nav-header">
+        <button class="btn-back" onclick="location.href='/dashboard'">← Zurück zum Dashboard</button>
+    </div>
+
+    <div id="category-selection">
+        <h2 style="margin-top: 60px;">Thema für die Übung wählen:</h2>
+        <div id="category-list" class="category-container">
+            </div>
+    </div>
+
+    <div id="game" class="hidden">
+        <h1 id="display-category" style="color: #34495e; text-transform: uppercase; letter-spacing: 2px;">Übung</h1>
+        <div class="stats">Richtig: <span id="correct-count" style="color: #27ae60;">0</span> &nbsp; | &nbsp; Falsch: <span id="wrong-count" style="color: #e74c3c;">0</span></div>
+        
+        <div id="feedback" class="feedback-message"></div>
+        
+        <div class="word-display" id="current-word">---</div>
+        <div class="translation" id="current-translation">---</div>
+
+        <div class="btn-container">
+            <button class="btn-article" onclick="checkAnswer('der')">der</button>
+            <button class="btn-article" onclick="checkAnswer('die')">die</button>
+            <button class="btn-article" onclick="checkAnswer('das')">das</button>
+        </div>
+    </div>
+
+    <script>
+        let currentData = {};
+        let selectedCategory = "";
+        let correctTotal = 0;
+        let wrongTotal = 0;
+        let hasFailedCurrentWord = false;
+        const studentName = "{{ student_name }}";
+
+        // Beim Laden direkt Kategorien holen
+        window.onload = fetchCategories;
+
+        async function fetchCategories() {
+            const response = await fetch('/get_categories');
+            const categories = await response.json();
+            const listDiv = document.getElementById('category-list');
+            
+            categories.forEach(cat => {
+                const btn = document.createElement('button');
+                btn.innerText = cat;
+                btn.className = "btn-category";
+                btn.onclick = () => startGame(cat);
+                listDiv.appendChild(btn);
+            });
+        }
+
+        function startGame(category) {
+            selectedCategory = category;
+            document.getElementById('category-selection').classList.add('hidden');
+            document.getElementById('game').classList.remove('hidden');
+            document.getElementById('display-category').innerText = category;
+            nextWord();
+        }
+
+        async function nextWord() {
+            const response = await fetch(`/get_word?category=${selectedCategory}`);
+            currentData = await response.json();
+            hasFailedCurrentWord = false;
+            document.getElementById('feedback').innerText = ""; 
+            document.getElementById('current-word').innerText = currentData.word;
+            document.getElementById('current-translation').innerText = currentData.translation;
+        }
+
+        async function checkAnswer(choice) {
+            const feedbackElement = document.getElementById('feedback');
+            
+            if (choice === currentData.article) {
+                if (!hasFailedCurrentWord) {
+                    correctTotal++;
+                    document.getElementById('correct-count').innerText = correctTotal;
+                }
+                nextWord();
+            } else {
+                feedbackElement.innerText = `${choice.charAt(0).toUpperCase() + choice.slice(1)} ${currentData.word} ist falsch, probiere es noch einmal`;
+                
+                if (!hasFailedCurrentWord) {
+                    wrongTotal++;
+                    document.getElementById('wrong-count').innerText = wrongTotal;
+                    hasFailedCurrentWord = true;
+
+                    // Fehler im Log speichern
+                    await fetch('/log_error', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({
+                            session_name: studentName,
+                            exercise: "Artikel Training",
+                            category: selectedCategory,
+                            word: currentData.word,
+                            wrong_article: choice
+                        })
+                    });
+                }
+            }
+        }
+    </script>
+</body>
+</html>

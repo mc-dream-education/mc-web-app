@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Nachhilfe Dashboard</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; background: #f4f7f6; margin: 0; padding: 20px; }
+        .card { background: white; padding: 20px; border-radius: 10px; display: inline-block; margin: 20px; width: 250px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+
+        button { background: #3498db; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+        button:hover { background: #2980b9; }
+
+        /* Modal Design */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5);
+            backdrop-filter: blur(3px);
+            z-index: 1000;
+        }
+
+        .modal-content {
+            background: white;
+            width: 350px;
+            padding: 30px;
+            border-radius: 12px;
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: left;
+        }
+
+        select, input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        #newNameInput { display: none; border-left: 4px solid #3498db; }
+
+        .modal-actions { display: flex; justify-content: space-between; margin-top: 20px; }
+        .btn-cancel { background: #e74c3c; width: 45%; }
+        .btn-confirm { background: #2ecc71; width: 45%; }
+    </style>
+</head>
+<body>
+
+    <h1>Willkommen, {{ teacher }}!</h1>
+    <p>Welche Übung möchtest du heute machen?</p>
+
+    <div class="card">
+        <h3>Artikeltraining</h3>
+        <button onclick="openModal('Artikeltraining', '/exercise/articles')">Starten</button>
+    </div>
+
+    <div class="card">
+        <h3>Adjektiv Deklination</h3>
+        <button onclick="openModal('Adjektiv Deklination', '/exercise/adjective_declension')">Starten</button>
+    </div>
+
+    <div id="nameModal" class="modal-overlay">
+        <div class="modal-content">
+            <h3 style="margin-top:0">Schüler auswählen</h3>
+
+            <label for="studentSelect">Wer lernt heute?</label>
+            <select id="studentSelect" onchange="toggleNewNameField()">
+                <option value="" disabled selected>Lade Schüler...</option>
+                </select>
+
+            <input type="text" id="newNameInput" placeholder="Vorname des neuen Schülers">
+
+            <div class="modal-actions">
+                <button class="btn-cancel" onclick="closeModal()">Abbrechen</button>
+                <button class="btn-confirm" onclick="confirmStart()">Starten</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentExName = "";
+        let currentExUrl = "";
+
+        async function fetchStudents() {
+            const select = document.getElementById('studentSelect');
+            try {
+                const response = await fetch('/get_students');
+                const students = await response.json(); // Erwartet: ["Max", "Lisa", "Moritz"]
+
+                select.innerHTML = '<option value="" disabled selected>Bitte wählen...</option>';
+                students.forEach(name => {
+                    const opt = document.createElement('option');
+                    opt.value = name;
+                    opt.textContent = name;
+                    select.appendChild(opt);
+                });
+
+                // Option für neuen Schüler hinzufügen
+                const newOpt = document.createElement('option');
+                newOpt.value = "NEW_STUDENT";
+                newOpt.textContent = "+ Neuen Schüler anlegen...";
+                newOpt.style.fontWeight = "bold";
+                newOpt.style.color = "#3498db";
+                select.appendChild(newOpt);
+
+            } catch (err) {
+                select.innerHTML = '<option value="NEW_STUDENT">Fehler beim Laden (Neu anlegen...)</option>';
+            }
+        }
+
+        function openModal(name, url) {
+            currentExName = name;
+            currentExUrl = url;
+            document.getElementById('nameModal').style.display = 'block';
+            fetchStudents(); // Liste bei jedem Öffnen frisch laden
+        }
+
+        function closeModal() {
+            document.getElementById('nameModal').style.display = 'none';
+            document.getElementById('newNameInput').style.display = 'none';
+            document.getElementById('newNameInput').value = '';
+        }
+
+        function toggleNewNameField() {
+            const select = document.getElementById('studentSelect');
+            const input = document.getElementById('newNameInput');
+            if (select.value === "NEW_STUDENT") {
+                input.style.display = "block";
+                input.focus();
+            } else {
+                input.style.display = "none";
+            }
+        }
+
+        async function confirmStart() {
+            const select = document.getElementById('studentSelect');
+            const input = document.getElementById('newNameInput');
+
+            let selectedStudent = select.value;
+
+            // Falls "Neu anlegen" gewählt wurde, nimm den Wert aus dem Textfeld
+            if (selectedStudent === "NEW_STUDENT") {
+                selectedStudent = input.value.trim();
+            }
+
+            if (!selectedStudent || selectedStudent === "") {
+                alert("Bitte wähle einen Schüler aus oder gib einen Namen ein.");
+                return;
+            }
+
+            await fetch('/start_lesson', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({ student: selectedStudent, exercise: currentExName })
+            });
+
+            window.location.href = currentExUrl;
+        }
+    </script>
+</body>
+</html>

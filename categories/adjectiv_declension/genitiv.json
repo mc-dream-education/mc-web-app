@@ -1,0 +1,1002 @@
+[
+  {
+    "prefix": "Wegen des stark",
+    "middle": " Regen",
+    "suffix": " wurde das Fußballspiel abgesagt.",
+    "options1": ["-e", "-er", "-en", "-em"],
+    "correct1": "-en",
+    "options2": ["-", "-e", "-n", "-s"],
+    "correct2": "-s",
+    "translation": "Wegen des starken Regens wurde das Fußballspiel abgesagt."
+  },
+  {
+    "prefix": "Trotz eines gültig",
+    "middle": " Fahrschein",
+    "suffix": " musste er eine Strafe zahlen.",
+    "options1": ["-en", "-er", "-es", "-e"],
+    "correct1": "-en",
+    "options2": ["-", "-e", "-en", "-s"],
+    "correct2": "-s",
+    "translation": "Trotz eines gültigen Fahrscheins musste er eine Strafe zahlen."
+  },
+  {
+    "prefix": "Während der lang",
+    "middle": " Reise",
+    "suffix": " las sie drei dicke Bücher.",
+    "options1": ["-e", "-er", "-en", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-es"],
+    "correct2": "-",
+    "translation": "Während der langen Reise las sie drei dicke Bücher."
+  },
+  {
+    "prefix": "Die Farbe des neu",
+    "middle": " Kleid",
+    "suffix": " passt perfekt zu deinen Augen.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-er"],
+    "correct2": "-es",
+    "translation": "Die Farbe des neuen Kleides passt perfekt zu deinen Augen."
+  },
+  {
+    "prefix": "Aufgrund schlecht",
+    "middle": " Wetter",
+    "suffix": " blieb die Terrasse heute geschlossen.",
+    "options1": ["-em", "-en", "-er", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-e"],
+    "correct2": "-s",
+    "translation": "Aufgrund schlechten Wetters blieb die Terrasse heute geschlossen."
+  },
+  {
+    "prefix": "Der Hund des freundlich",
+    "middle": " Nachbar",
+    "suffix": " bellt nachts sehr selten.",
+    "options1": ["-en", "-es", "-er", "-e"],
+    "correct1": "-en",
+    "options2": ["-s", "-n", "-", "-es"],
+    "correct2": "-n",
+    "translation": "Der Hund des freundlichen Nachbarn bellt nachts sehr selten."
+  },
+  {
+    "prefix": "Mithilfe eines modern",
+    "middle": " Computer",
+    "suffix": " löste er das Problem sofort.",
+    "options1": ["-em", "-er", "-en", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-s",
+    "translation": "Mithilfe eines modernen Computers löste er das Problem sofort."
+  },
+  {
+    "prefix": "Die Meinung mein",
+    "middle": " Elter",
+    "suffix": " ist mir sehr wichtig.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-n", "-", "-s", "-es"],
+    "correct2": "-",
+    "translation": "Die Meinung meiner Eltern ist mir sehr wichtig."
+  },
+  {
+    "prefix": "Innerhalb eines kurz",
+    "middle": " Moment",
+    "suffix": " veränderte sich alles.",
+    "options1": ["-en", "-es", "-er", "-em"],
+    "correct1": "-en",
+    "options2": ["-", "-e", "-s", "-en"],
+    "correct2": "-s",
+    "translation": "Innerhalb eines kurzen Moments veränderte sich alles."
+  },
+  {
+    "prefix": "Die Stimme einer bekannt",
+    "middle": " Sängerin",
+    "suffix": " klang durch den Raum.",
+    "options1": ["-e", "-er", "-en", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-n", "-s", "-nen"],
+    "correct2": "-",
+    "translation": "Die Stimme einer bekannten Sängerin klang durch den Raum."
+  },
+  {
+    "prefix": "Statt frisch",
+    "middle": " Brot",
+    "suffix": " gab es nur altes Knäckebrot.",
+    "options1": ["-em", "-en", "-es", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-es",
+    "translation": "Statt frischen Brotes gab es nur altes Knäckebrot."
+  },
+  {
+    "prefix": "Die Qualität des teur",
+    "middle": " Wein",
+    "suffix": " enttäuschte die Gäste.",
+    "options1": ["-en", "-es", "-er", "-em"],
+    "correct1": "-en",
+    "options2": ["-", "-e", "-s", "-en"],
+    "correct2": "-s",
+    "translation": "Die Qualität des teuren Weines enttäuschte die Gäste."
+  },
+  {
+    "prefix": "Wegen ein",
+    "middle": " technisch",
+    "suffix": " Defekt... fährt der Zug heute nicht.",
+    "options1": ["-es", "-em", "-er", "-en"],
+    "correct1": "-es",
+    "options2": ["-s", "-", "-es", "-en"],
+    "correct2": "-s",
+    "translation": "Wegen eines technischen Defekts fährt der Zug heute nicht."
+  },
+  {
+    "prefix": "Das Ende des spannend",
+    "middle": " Film",
+    "suffix": " hat mich sehr überrascht.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-e", "-s", "-es"],
+    "correct2": "-s",
+    "translation": "Das Ende des spannenden Films hat mich sehr überrascht."
+  },
+  {
+    "prefix": "Trotz groß",
+    "middle": " Anstrengung",
+    "suffix": " hat er das Ziel nicht erreicht.",
+    "options1": ["-en", "-er", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-",
+    "translation": "Trotz großer Anstrengung hat er das Ziel nicht erreicht."
+  },
+  {
+    "prefix": "Der Geruch frisch",
+    "middle": " Kaffee",
+    "suffix": " am Morgen ist wunderbar.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-n"],
+    "correct2": "-s",
+    "translation": "Der Geruch frischen Kaffees am Morgen ist wunderbar."
+  },
+  {
+    "prefix": "Infolge ein",
+    "middle": " schwer",
+    "suffix": " Unfall... war die Straße gesperrt.",
+    "options1": ["-en", "-es", "-er", "-em"],
+    "correct1": "-es",
+    "options2": ["-s", "-", "-es", "-en"],
+    "correct2": "-s",
+    "translation": "Infolge eines schweren Unfalls war die Straße gesperrt."
+  },
+  {
+    "prefix": "Die Tasche der jung",
+    "middle": " Frau",
+    "suffix": " wurde im Bus gestohlen.",
+    "options1": ["-en", "-er", "-e", "-es"],
+    "correct1": "-en",
+    "options2": ["-", "-en", "-s", "-es"],
+    "correct2": "-",
+    "translation": "Die Tasche der jungen Frau wurde im Bus gestohlen."
+  },
+  {
+    "prefix": "Das Zimmer mein",
+    "middle": " Bruder",
+    "suffix": " ist immer sehr unordentlich.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-", "-s", "-n", "-es"],
+    "correct2": "-s",
+    "translation": "Das Zimmer meines Bruders ist immer sehr unordentlich."
+  },
+  {
+    "prefix": "Wegen d",
+    "middle": " laut",
+    "suffix": " Musik... konnten wir nicht schlafen.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-",
+    "translation": "Wegen der lauten Musik konnten wir nicht schlafen."
+  },
+  {
+    "prefix": "Die Reparatur des kaputt",
+    "middle": " Fahrrad",
+    "suffix": " war sehr teuer.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Die Reparatur des kaputten Fahrrades war sehr teuer."
+  },
+  {
+    "prefix": "Aufgrund ein",
+    "middle": " klein",
+    "suffix": " Irrtum... gab es große Probleme.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-", "-es", "-en"],
+    "correct2": "-s",
+    "translation": "Aufgrund eines kleinen Irrtums gab es große Probleme."
+  },
+  {
+    "prefix": "Die Blätter d",
+    "middle": " hoch",
+    "suffix": " Bäum... färben sich im Herbst gelb.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-e", "-en", "-s"],
+    "correct2": "-e",
+    "translation": "Die Blätter der hohen Bäume färben sich im Herbst gelb."
+  },
+  {
+    "prefix": "Jenseits d",
+    "middle": " dunkl",
+    "suffix": " Wald... liegt ein kleines Dorf.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Jenseits des dunklen Waldes liegt ein kleines Dorf."
+  },
+  {
+    "prefix": "Anlässlich sein",
+    "middle": " achtzigst",
+    "suffix": " Geburtstag... gab es ein großes Fest.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-", "-s", "-es", "-en"],
+    "correct2": "-s",
+    "translation": "Anlässlich seines achtzigsten Geburtstags gab es ein großes Fest."
+  },
+  {
+    "prefix": "Die Eröffnung d",
+    "middle": " neu",
+    "suffix": " Museum... findet morgen statt.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-", "-es", "-en"],
+    "correct2": "-s",
+    "translation": "Die Eröffnung des neuen Museums findet morgen statt."
+  },
+  {
+    "prefix": "Trotz ihr",
+    "middle": " schwer",
+    "suffix": " Krankheit... verlor sie nie den Mut.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-",
+    "translation": "Trotz ihrer schweren Krankheit verlor sie nie den Mut."
+  },
+  {
+    "prefix": "Das Gehalt ein",
+    "middle": " einfach",
+    "suffix": " Angestellt... reicht oft kaum aus.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-n", "-s", "-en", "-"],
+    "correct2": "-en",
+    "translation": "Das Gehalt eines einfachen Angestellten reicht oft kaum aus."
+  },
+  {
+    "prefix": "Oberhalb d",
+    "middle": " steil",
+    "suffix": " Berg... steht eine kleine Hütte.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Oberhalb des steilen Berges steht eine kleine Hütte."
+  },
+  {
+    "prefix": "Die Länge d",
+    "middle": " geplant",
+    "suffix": " Tunnel... beträgt fünf Kilometer.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-", "-es", "-en"],
+    "correct2": "-s",
+    "translation": "Die Länge des geplanten Tunnels beträgt fünf Kilometer."
+  },
+  {
+    "prefix": "Ungeachtet d",
+    "middle": " hohl",
+    "suffix": " Phras... war die Rede beeindruckend.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-n", "-", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Ungeachtet der hohlen Phrasen war die Rede beeindruckend."
+  },
+  {
+    "prefix": "Anstatt ein",
+    "middle": " langweilig",
+    "suffix": " Vortrag... gab es eine Diskussion.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-", "-es", "-en"],
+    "correct2": "-s",
+    "translation": "Anstatt eines langweiligen Vortrags gab es eine Diskussion."
+  },
+  {
+    "prefix": "Wegen d",
+    "middle": " fehlend",
+    "suffix": " Beweis... wurde der Prozess beendet.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-e", "-", "-s", "-en"],
+    "correct2": "-e",
+    "translation": "Wegen der fehlenden Beweise wurde der Prozess beendet."
+  },
+  {
+    "prefix": "Der Erfolg d",
+    "middle": " jung",
+    "suffix": " Student... freute den Professor.",
+    "options1": ["-en", "-es", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-s", "-en", "-", "-es"],
+    "correct2": "-en",
+    "translation": "Der Erfolg des jungen Studenten freute den Professor."
+  },
+  {
+    "prefix": "Die Hilfe mein",
+    "middle": " gut",
+    "suffix": " Freund... war sehr wertvoll.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Die Hilfe meines guten Freundes war sehr wertvoll."
+  },
+  {
+    "prefix": "Innerhalb ein",
+    "middle": " fest",
+    "suffix": " Zeitraum... muss die Arbeit fertig sein.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-", "-es", "-en"],
+    "correct2": "-s",
+    "translation": "Innerhalb eines festen Zeitraums muss die Arbeit fertig sein."
+  },
+  {
+    "prefix": "Das Bellen d",
+    "middle": " benachbart",
+    "suffix": " Hund... ist sehr laut.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-e"],
+    "correct2": "-es",
+    "translation": "Das Bellen des benachbarten Hundes ist sehr laut."
+  },
+  {
+    "prefix": "Der Bau d",
+    "middle": " neu",
+    "suffix": " Brück... dauert zwei Jahre.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-",
+    "translation": "Der Bau der neuen Brücke dauert zwei Jahre."
+  },
+  {
+    "prefix": "Die Blüte d",
+    "middle": " rot",
+    "suffix": " Ros... duftet herrlich.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-",
+    "translation": "Die Blüte der roten Rose duftet herrlich."
+  },
+  {
+    "prefix": "Trotz d",
+    "middle": " hoh",
+    "suffix": " Preis... kaufte er das Auto.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Trotz des hohen Preises kaufte er das Auto."
+  },
+  {
+    "prefix": "Der Name ein",
+    "middle": " fremd",
+    "suffix": " Person... stand auf dem Zettel.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-",
+    "translation": "Der Name einer fremden Person stand auf dem Zettel."
+  },
+  {
+    "prefix": "Der Titel d",
+    "middle": " alt",
+    "suffix": " Buch... ist kaum noch lesbar.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Der Titel des alten Buches ist kaum noch lesbar."
+  },
+  {
+    "prefix": "Während ein",
+    "middle": " gewaltig",
+    "suffix": " Sturm... fielen viele Bäume um.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-", "-es", "-en"],
+    "correct2": "-s",
+    "translation": "Während eines gewaltigen Sturms fielen viele Bäume um."
+  },
+  {
+    "prefix": "Die Türen d",
+    "middle": " historisch",
+    "suffix": " Gebäude... sind aus Eichenholz.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-s", "-e", "-n"],
+    "correct2": "-",
+    "translation": "Die Türen der historischen Gebäude sind aus Eichenholz."
+  },
+  {
+    "prefix": "Die Kinder d",
+    "middle": " nett",
+    "suffix": " Nachbar... spielen im Garten.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-n", "-", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Die Kinder der netten Nachbarn spielen im Garten."
+  },
+  {
+    "prefix": "Wegen d",
+    "middle": " glatt",
+    "suffix": " Fahrbahn... passierten Unfälle.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-",
+    "translation": "Wegen der glatten Fahrbahn passierten Unfälle."
+  },
+  {
+    "prefix": "Anstelle d",
+    "middle": " weiß",
+    "suffix": " Hemd... trug er ein blaues.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Anstelle des weißen Hemdes trug er ein blaues."
+  },
+  {
+    "prefix": "Der Ursprung d",
+    "middle": " seltsam",
+    "suffix": " Geräusch... blieb ungeklärt.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Der Ursprung des seltsamen Geräusches blieb ungeklärt."
+  },
+  {
+    "prefix": "Die Farbe d",
+    "middle": " klar",
+    "suffix": " Wasser... faszinierte die Taucher.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Die Farbe des klaren Wassers faszinierte die Taucher."
+  },
+  {
+    "prefix": "Die Wohnung ein",
+    "middle": " bekannt",
+    "suffix": " Schauspieler... wurde verkauft.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-en", "-", "-es"],
+    "correct2": "-s",
+    "translation": "Die Wohnung eines bekannten Schauspielers wurde verkauft."
+  },
+  {
+    "prefix": "Statt d",
+    "middle": " geplant",
+    "suffix": " Ausflug... blieben wir zu Hause.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Statt des geplanten Ausflugs blieben wir zu Hause."
+  },
+  {
+    "prefix": "Die Stimme d",
+    "middle": " klein",
+    "suffix": " Kind... war sehr leise.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Die Stimme des kleinen Kindes war sehr leise."
+  },
+  {
+    "prefix": "Die Tasche mein",
+    "middle": " Kolleg",
+    "suffix": " liegt noch im Büro.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-n", "-s", "-", "-es"],
+    "correct2": "-n",
+    "translation": "Die Tasche meines Kollegen liegt noch im Büro."
+  },
+  {
+    "prefix": "Der Schatten d",
+    "middle": " groß",
+    "suffix": " Baum... spendete Kühle.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Der Schatten des großen Baumes spendete Kühle."
+  },
+  {
+    "prefix": "Wegen d",
+    "middle": " fehlend",
+    "suffix": " Unterschrift... ist der Vertrag ungültig.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-",
+    "translation": "Wegen der fehlenden Unterschrift ist der Vertrag ungültig."
+  },
+  {
+    "prefix": "Die Zukunft unser",
+    "middle": " Planet",
+    "suffix": " bereitet vielen Sorgen.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-en", "-s", "-", "-es"],
+    "correct2": "-en",
+    "translation": "Die Zukunft unseres Planeten bereitet vielen Sorgen."
+  },
+  {
+    "prefix": "Trotz ein",
+    "middle": " gering",
+    "suffix": " Einkommen... ist er sehr großzügig.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Trotz eines geringen Einkommens ist er sehr großzügig."
+  },
+  {
+    "prefix": "Das Auto d",
+    "middle": " jung",
+    "suffix": " Mann... steht in der Garage.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Das Auto des jungen Mannes steht in der Garage."
+  },
+  {
+    "prefix": "Die Bedeutung d",
+    "middle": " alt",
+    "suffix": " Wort... hat sich gewandelt.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Die Bedeutung des alten Wortes hat sich gewandelt."
+  },
+  {
+    "prefix": "Aufgrund d",
+    "middle": " hoh",
+    "suffix": " Well... war das Schwimmen verboten.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-n", "-", "-s", "-en"],
+    "correct2": "-n",
+    "translation": "Aufgrund der hohen Wellen war das Schwimmen verboten."
+  },
+  {
+    "prefix": "Die Hilfe ein",
+    "middle": " erfahren",
+    "suffix": " Spezialist... war notwendig.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-en",
+    "options2": ["-en", "-s", "-", "-es"],
+    "correct2": "-en",
+    "translation": "Die Hilfe eines erfahrenen Spezialisten war notwendig."
+  },
+  {
+    "prefix": "Der Geschmack d",
+    "middle": " exotisch",
+    "suffix": " Frucht... war sehr süß.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-",
+    "translation": "Der Geschmack der exotischen Frucht war sehr süß."
+  },
+  {
+    "prefix": "Innerhalb ein",
+    "middle": " bestimmt",
+    "suffix": " Bereich... darf man nicht parken.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Innerhalb eines bestimmten Bereichs darf man nicht parken."
+  },
+  {
+    "prefix": "Die Meinung d",
+    "middle": " bayerisch",
+    "suffix": " Minister... wurde kritisiert.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Die Meinung des bayerischen Ministers wurde kritisiert."
+  },
+  {
+    "prefix": "Wegen d",
+    "middle": " dicht",
+    "suffix": " Nebel... sah man fast nichts.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Wegen des dichten Nebels sah man fast nichts."
+  },
+  {
+    "prefix": "Die Wurzeln d",
+    "middle": " alt",
+    "suffix": " Eich... reichen tief in die Erde.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-",
+    "translation": "Die Wurzeln der alten Eiche reichen tief in die Erde."
+  },
+  {
+    "prefix": "Inmitten ein",
+    "middle": " blühend",
+    "suffix": " Garten... steht ein Brunnen.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Inmitten eines blühenden Gartens steht ein Brunnen."
+  },
+  {
+    "prefix": "Der Inhalt d",
+    "middle": " geliefert",
+    "suffix": " Paket... war beschädigt.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Der Inhalt des gelieferten Pakets war beschädigt."
+  },
+  {
+    "prefix": "Aufgrund d",
+    "middle": " stark",
+    "suffix": " Wind... fielen Ziegel vom Dach.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Aufgrund des starken Windes fielen Ziegel vom Dach."
+  },
+  {
+    "prefix": "Die Augen mein",
+    "middle": " klein",
+    "suffix": " Schwester... leuchteten vor Freude.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-",
+    "translation": "Die Augen meiner kleinen Schwester leuchteten vor Freude."
+  },
+  {
+    "prefix": "Der Besitzer d",
+    "middle": " schwarz",
+    "suffix": " Katze... wird gesucht.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-",
+    "translation": "Der Besitzer der schwarzen Katze wird gesucht."
+  },
+  {
+    "prefix": "Statt ein",
+    "middle": " neu",
+    "suffix": " Fernseher... kaufte er ein Radio.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-", "-es", "-en"],
+    "correct2": "-s",
+    "translation": "Statt eines neuen Fernsehers kaufte er ein Radio."
+  },
+  {
+    "prefix": "Das Licht d",
+    "middle": " hell",
+    "suffix": " Sonn... blendete mich.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-e", "-n", "-s"],
+    "correct2": "-",
+    "translation": "Das Licht der hellen Sonne blendete mich."
+  },
+  {
+    "prefix": "Wegen d",
+    "middle": " hoh",
+    "suffix": " Miet... zogen sie aufs Land.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-",
+    "translation": "Wegen der hohen Miete zogen sie aufs Land."
+  },
+  {
+    "prefix": "Die Tür d",
+    "middle": " verschlossen",
+    "suffix": " Schrank... ließ sich nicht öffnen.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Die Tür des verschlossenen Schrankes ließ sich nicht öffnen."
+  },
+  {
+    "prefix": "Trotz ein",
+    "middle": " kräftig",
+    "suffix": " Frühstück... hatte er bald wieder Hunger.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Trotz eines kräftigen Frühstücks hatte er bald wieder Hunger."
+  },
+  {
+    "prefix": "Das Ufer d",
+    "middle": " breit",
+    "suffix": " Fluss... war bewaldet.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Das Ufer des breiten Flusses war bewaldet."
+  },
+  {
+    "prefix": "Die Pflege d",
+    "middle": " krank",
+    "suffix": " Tier... erfordert viel Geduld.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-e", "-n", "-s"],
+    "correct2": "-e",
+    "translation": "Die Pflege der kranken Tiere erfordert viel Geduld."
+  },
+  {
+    "prefix": "Anlässlich ein",
+    "middle": " feierlich",
+    "suffix": " Empfang... hielt er eine Rede.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Anlässlich eines feierlichen Empfangs hielt er eine Rede."
+  },
+  {
+    "prefix": "Die Erforschung d",
+    "middle": " weit",
+    "suffix": " Weltraum... ist sehr teuer.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Die Erforschung des weiten Weltraums ist sehr teuer."
+  },
+  {
+    "prefix": "Das Gesicht d",
+    "middle": " alt",
+    "suffix": " Mann... war voller Falten.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Das Gesicht des alten Mannes war voller Falten."
+  },
+  {
+    "prefix": "Aufgrund d",
+    "middle": " gering",
+    "suffix": " Sicht... flogen keine Flugzeuge.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-",
+    "translation": "Aufgrund der geringen Sicht flogen keine Flugzeuge."
+  },
+  {
+    "prefix": "Das Dach d",
+    "middle": " klein",
+    "suffix": " Häuschen... war mit Moos bedeckt.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-", "-es", "-en"],
+    "correct2": "-s",
+    "translation": "Das Dach des kleinen Häuschens war mit Moos bedeckt."
+  },
+  {
+    "prefix": "Der Erfolg ein",
+    "middle": " gut",
+    "suffix": " Sportler... hängt vom Training ab.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-", "-es", "-en"],
+    "correct2": "-s",
+    "translation": "Der Erfolg eines guten Sportlers hängt vom Training ab."
+  },
+  {
+    "prefix": "Wegen d",
+    "middle": " kaputt",
+    "suffix": " Aufzug... mussten wir laufen.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Wegen des kaputten Aufzugs mussten wir laufen."
+  },
+  {
+    "prefix": "Das Ende d",
+    "middle": " heiß",
+    "suffix": " Sommer... kam überraschend.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Das Ende des heißen Sommers kam überraschend."
+  },
+  {
+    "prefix": "Die Stimme ein",
+    "middle": " zornig",
+    "suffix": " Lehrer... erschreckte die Klasse.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-", "-es", "-en"],
+    "correct2": "-s",
+    "translation": "Die Stimme eines zornigen Lehrers erschreckte die Klasse."
+  },
+  {
+    "prefix": "Innerhalb d",
+    "middle": " nächst",
+    "suffix": " Jahr... wird die Firma wachsen.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-e", "-en", "-", "-s"],
+    "correct2": "-e",
+    "translation": "Innerhalb der nächsten Jahre wird die Firma wachsen."
+  },
+  {
+    "prefix": "Trotz d",
+    "middle": " hoh",
+    "suffix": " Fieber... wollte das Kind spielen.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Trotz des hohen Fiebers wollte das Kind spielen."
+  },
+  {
+    "prefix": "Die Kleidung d",
+    "middle": " schick",
+    "suffix": " Frau... war sehr elegant.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-n", "-s", "-en"],
+    "correct2": "-",
+    "translation": "Die Kleidung der schicken Frau war sehr elegant."
+  },
+  {
+    "prefix": "Wegen d",
+    "middle": " hohl",
+    "suffix": " Versprechung... wählte ihn niemand.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-en", "-", "-s", "-e"],
+    "correct2": "-en",
+    "translation": "Wegen der hohlen Versprechungen wählte ihn niemand."
+  },
+  {
+    "prefix": "Das Aroma d",
+    "middle": " frisch",
+    "suffix": " Te... war sehr beruhigend.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Das Aroma des frischen Tees war sehr beruhigend."
+  },
+  {
+    "prefix": "Aufgrund ein",
+    "middle": " misslungen",
+    "suffix": " Versuch... wurde das Projekt gestoppt.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Aufgrund eines misslungenen Versuchs wurde das Projekt gestoppt."
+  },
+  {
+    "prefix": "Die Farbe d",
+    "middle": " blau",
+    "suffix": " Himmel... war wunderschön.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Die Farbe des blauen Himmels war wunderschön."
+  },
+  {
+    "prefix": "Statt d",
+    "middle": " vereinbart",
+    "suffix": " Termin... kam er einen Tag später.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Statt des vereinbarten Termins kam er einen Tag später."
+  },
+  {
+    "prefix": "Die Blätter d",
+    "middle": " grün",
+    "suffix": " Pflanz... müssen gegossen werden.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-e", "-en", "-", "-s"],
+    "correct2": "-e",
+    "translation": "Die Blätter der grünen Pflanze müssen gegossen werden."
+  },
+  {
+    "prefix": "Infolge ein",
+    "middle": " fatal",
+    "suffix": " Fehlentscheidung... verlor er alles.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-", "-en", "-s", "-e"],
+    "correct2": "-",
+    "translation": "Infolge einer fatalen Fehlentscheidung verlor er alles."
+  },
+  {
+    "prefix": "Wegen ein",
+    "middle": " dumm",
+    "suffix": " Missverständnis... gab es Streit.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-es", "-s", "-", "-en"],
+    "correct2": "-es",
+    "translation": "Wegen eines dummen Missverständnisses gab es Streit."
+  },
+  {
+    "prefix": "Die Qualität d",
+    "middle": " geliefert",
+    "suffix": " War... war mangelhaft.",
+    "options1": ["-er", "-en", "-e", "-es"],
+    "correct1": "-er",
+    "options2": ["-e", "-en", "-", "-s"],
+    "correct2": "-e",
+    "translation": "Die Qualität der gelieferten Ware war mangelhaft."
+  },
+  {
+    "prefix": "Das Ende d",
+    "middle": " lang",
+    "suffix": " Tag... war sehr entspannend.",
+    "options1": ["-es", "-en", "-em", "-er"],
+    "correct1": "-es",
+    "options2": ["-s", "-es", "-", "-en"],
+    "correct2": "-s",
+    "translation": "Das Ende des langen Tags war sehr entspannend."
+  }
+]
