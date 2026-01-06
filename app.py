@@ -112,12 +112,14 @@ def log_error():
     session_name = data.get('session_name', 'N/A')
     exercise = data.get('exercise', 'N/A')
     category = data.get('category', 'N/A')
-    wrong_word = data.get('word')
-    wrong_article = data.get('wrong_article')
+    wrong_word = data.get('word', 'N/A')
+    wrong_article = data.get('wrong_article', 'N/A')
+    score_right = data.get('score_right', 'N/A')
+    score_wrong = data.get('score_wrong', 'N/A')
     
     time = datetime.now().strftime("%H:%M:%S")
     # Log-Format inkl. Kategorie
-    log_entry = f"{time} | Übung: {exercise} | Kat: {category} | falsche Antwort: {wrong_article} | Wort: {wrong_word}\n"
+    log_entry = f"{time} | Übung: {exercise} | Kat: {category} | falsche Antwort: {wrong_article} | Wort: {wrong_word}\n | Right: {score_right}\n | Wrong: {score_wrong} "
 
     now = datetime.now().strftime("%Y_%m_%d")
     filename = f"./logs/{session_name}/log_{now}.txt"

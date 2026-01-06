@@ -181,7 +181,9 @@
                             exercise: "Adjektiv Deklination",
                             category: selectedCategory,
                             word: currentStep === 1 ? currentData.prefix + "..." : currentData.prefix + currentData.correct1 + currentData.middle + "...",
-                            wrong_article: `${choice} (${partName})`
+                            wrong_article: `${choice} (${partName})`,
+                            score_right: correctTotal,
+                            score_wrong: wrongTotal
                         })
                     });
                 }
