@@ -1,0 +1,703 @@
+
+[
+  {
+    "prefix": "Ich ",
+    "verb": "gehen",
+    "suffix": "gestern Abend alleine ins Kino.",
+    "options": ["gehte", "gieng", "ging", "gang"],
+    "correct": "ging"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "haben",
+    "suffix": "damals wirklich viel Glück.",
+    "options": ["hast", "hattest", "hattet", "hastest"],
+    "correct": "hattest"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "sein",
+    "suffix": "letzte Woche leider krank.",
+    "options": ["war", "sein", "ware", "wurde"],
+    "correct": "war"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "trinken",
+    "suffix": "im Café einen heißen Tee.",
+    "options": ["trinkten", "tranken", "trinkten", "trunkten"],
+    "correct": "tranken"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "sagen",
+    "suffix": "eure Meinung sehr deutlich.",
+    "options": ["sagtet", "sagt", "sagen", "sagtete"],
+    "correct": "sagtet"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "kommen",
+    "suffix": "viel zu spät zum Termin.",
+    "options": ["kommt", "kommten", "kamen", "kammen"],
+    "correct": "kamen"
+  },
+  {
+    "prefix": "Es ",
+    "verb": "regnen",
+    "suffix": "den ganzen Nachmittag lang.",
+    "options": ["regnete", "regne", "regnet", "regneten"],
+    "correct": "regnete"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "essen",
+    "suffix": "einen leckeren Apfelkuchen.",
+    "options": ["as", "asst", "aß", "esste"],
+    "correct": "aß"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "sehen",
+    "suffix": "den neuen Film bereits am Freitag.",
+    "options": ["siehst", "sahst", "sehtest", "saht"],
+    "correct": "sahst"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "machen",
+    "suffix": "einen langen Spaziergang im Wald.",
+    "options": ["macht", "machten", "machtete", "muchten"],
+    "correct": "machten"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "schreiben",
+    "suffix": "eine E-Mail an seinen Chef.",
+    "options": ["schrieb", "schreibt", "schreibe", "schriebte"],
+    "correct": "schrieb"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "finden",
+    "suffix": "den Schlüssel endlich im Auto.",
+    "options": ["fundet", "fand", "fandet", "findetet"],
+    "correct": "fandet"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "laufen",
+    "suffix": "schnell zur Bushaltestelle.",
+    "options": ["liefen", "lauften", "lief", "laufte"],
+    "correct": "liefen"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "kaufen",
+    "suffix": "frisches Gemüse auf dem Markt.",
+    "options": ["kaufte", "kauft", "kaufte", "kief"],
+    "correct": "kaufte"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "wissen",
+    "suffix": "die Antwort auf die schwere Frage.",
+    "options": ["wisst", "wusstest", "wissest", "wusstet"],
+    "correct": "wusstest"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "lernen",
+    "suffix": "fleißig für die Deutschprüfung.",
+    "options": ["lernten", "lernen", "lernt", "lerntet"],
+    "correct": "lernten"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "geben",
+    "suffix": "mir ein schönes Geschenk.",
+    "options": ["gab", "gebt", "gibt", "gabt"],
+    "correct": "gab"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "hören",
+    "suffix": "die laute Musik der Nachbarn.",
+    "options": ["hörtet", "hört", "hortete", "hörten"],
+    "correct": "hörtet"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "bleiben",
+    "suffix": "über das Wochenende in Berlin.",
+    "options": ["bleibten", "blieben", "blieb", "bleiben"],
+    "correct": "blieben"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "denken",
+    "suffix": "oft an meinen letzten Urlaub.",
+    "options": ["dachte", "denkte", "denkt", "dachtet"],
+    "correct": "dachte"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "singen",
+    "suffix": "ein Lied unter der Dusche.",
+    "options": ["singte", "sangst", "sangest", "sungst"],
+    "correct": "sangst"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "sprechen",
+    "suffix": "lange über unsere Zukunftspläne.",
+    "options": ["sprochen", "sprachen", "sprechten", "spracht"],
+    "correct": "sprachen"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "fahren",
+    "suffix": "mit dem Fahrrad zur Arbeit.",
+    "options": ["fahrt", "fuhrt", "fuhr", "fahrte"],
+    "correct": "fuhr"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "wollen",
+    "suffix": "eigentlich früher nach Hause.",
+    "options": ["wollt", "wolltet", "willten", "wolltet"],
+    "correct": "wolltet"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "lesen",
+    "suffix": "ein spannendes Buch im Bett.",
+    "options": ["lesten", "lasen", "las", "les"],
+    "correct": "lasen"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "brauchen",
+    "suffix": "etwas Hilfe bei den Hausaufgaben.",
+    "options": ["brauch", "brauchte", "braucht", "bruchte"],
+    "correct": "brauchte"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "schlafen",
+    "suffix": "letzte Nacht sehr tief.",
+    "options": ["schläfst", "schliefst", "schlaftest", "schlieft"],
+    "correct": "schliefst"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "sehen",
+    "suffix": "viele Tiere im Zoo.",
+    "options": ["sehten", "sahen", "seht", "saht"],
+    "correct": "sahen"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "arbeiten",
+    "suffix": "bis spät in die Nacht hinein.",
+    "options": ["arbeitete", "arbeit", "arbeitet", "arbeiteten"],
+    "correct": "arbeitete"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "nehmen",
+    "suffix": "den Zug um acht Uhr.",
+    "options": ["nehmte", "nehmt", "nahmt", "namt"],
+    "correct": "nahmt"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "wohnen",
+    "suffix": "früher in einer kleinen Wohnung.",
+    "options": ["wohnten", "wohnen", "wohntet", "wohne"],
+    "correct": "wohnten"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "treffen",
+    "suffix": "meine Freunde im Park.",
+    "options": ["treffte", "traff", "traf", "troff"],
+    "correct": "traf"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "spielen",
+    "suffix": "schon als Kind gerne Klavier.",
+    "options": ["spielte", "spieltest", "spielt", "spalst"],
+    "correct": "spieltest"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "fragen",
+    "suffix": "den Lehrer nach dem Weg.",
+    "options": ["fragt", "fragten", "frugt", "frugten"],
+    "correct": "fragten"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "helfen",
+    "suffix": "seiner Oma beim Einkaufen.",
+    "options": ["hilft", "halft", "half", "helfte"],
+    "correct": "half"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "backen",
+    "suffix": "einen Kuchen für die Party.",
+    "options": ["backtet", "bäckt", "bukt", "backetet"],
+    "correct": "backtet"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "verstehen",
+    "suffix": "die Aufgabe sofort.",
+    "options": ["verstehten", "verstanden", "verstandet", "versteht"],
+    "correct": "verstanden"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "bringen",
+    "suffix": "den Müll nach draußen.",
+    "options": ["bringte", "brachten", "brachte", "brang"],
+    "correct": "brachte"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "laufen",
+    "suffix": "zehn Kilometer beim Marathon.",
+    "options": ["liefst", "lauftest", "läufst", "lieft"],
+    "correct": "liefst"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "tanzen",
+    "suffix": "die ganze Nacht auf der Hochzeit.",
+    "options": ["tanzten", "tanzet", "tanzte", "tanzen"],
+    "correct": "tanzten"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "fliegen",
+    "suffix": "letztes Jahr nach Spanien.",
+    "options": ["fliegt", "flog", "flag", "flogt"],
+    "correct": "flog"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "tragen",
+    "suffix": "schwere Kisten in den Keller.",
+    "options": ["tragt", "trugt", "tragtet", "traget"],
+    "correct": "trugt"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "besuchen",
+    "suffix": "ihre Verwandten in Hamburg.",
+    "options": ["besuchten", "besuchen", "besucht", "besuch"],
+    "correct": "besuchten"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "kochen",
+    "suffix": "eine Suppe für meine Familie.",
+    "options": ["kochte", "kocht", "kochten", "küche"],
+    "correct": "kochte"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "stehen",
+    "suffix": "lange an der Bushaltestelle.",
+    "options": ["stehst", "standest", "standst", "stehtest"],
+    "correct": "standest"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "suchen",
+    "suffix": "überall nach meinem Geldbeutel.",
+    "options": ["suchten", "sucht", "suchte", "suche"],
+    "correct": "suchten"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "gewinnen",
+    "suffix": "den ersten Preis beim Wettbewerb.",
+    "options": ["gewinnt", "gewann", "gewonn", "gewinnte"],
+    "correct": "gewann"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "lachen",
+    "suffix": "über den lustigen Witz.",
+    "options": ["lachtet", "lachten", "lacht", "lüchtet"],
+    "correct": "lachtet"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "verlieren",
+    "suffix": "das Fußballspiel ganz knapp.",
+    "options": ["verlorten", "verloren", "verlierte", "verlor"],
+    "correct": "verloren"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "rennen",
+    "suffix": "so schnell ich konnte.",
+    "options": ["rennte", "rannte", "rennt", "rann"],
+    "correct": "rannte"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "glauben",
+    "suffix": "mir kein einziges Wort.",
+    "options": ["glaubst", "glaubtest", "glaubt", "gleubtest"],
+    "correct": "glaubtest"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "erzählen",
+    "suffix": "uns gegenseitig Geschichten.",
+    "options": ["erzählten", "erzählen", "erzählt", "erzähltet"],
+    "correct": "erzählten"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "kennen",
+    "suffix": "die Antwort leider nicht.",
+    "options": ["kannt", "kannte", "kennt", "kennte"],
+    "correct": "kannte"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "putzen",
+    "suffix": "am Samstag das ganze Haus.",
+    "options": ["putzt", "putztet", "putzten", "puztet"],
+    "correct": "putztet"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "waschen",
+    "suffix": "ihre schmutzige Kleidung.",
+    "options": ["waschten", "wuschen", "wascht", "wuscht"],
+    "correct": "wuschen"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "bezahlen",
+    "suffix": "die Rechnung im Restaurant.",
+    "options": ["bezahlt", "bezahlte", "bezahlten", "bezahle"],
+    "correct": "bezahlte"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "ziehen",
+    "suffix": "letzten Monat in eine neue Stadt.",
+    "options": ["ziehst", "zogst", "ziehte", "zugst"],
+    "correct": "zogst"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "feiern",
+    "suffix": "bis in den frühen Morgen.",
+    "options": ["feierten", "feiert", "feiern", "feiertet"],
+    "correct": "feierten"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "sitzen",
+    "suffix": "stundenlang vor dem Computer.",
+    "options": ["sitzt", "saß", "sitzte", "saßt"],
+    "correct": "saß"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "bestellen",
+    "suffix": "eine Pizza mit Salami.",
+    "options": ["bestellt", "bestellte", "bestelltet", "bestellten"],
+    "correct": "bestelltet"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "verkaufen",
+    "suffix": "ihr altes Auto bei eBay.",
+    "options": ["verkauften", "verkauft", "verkaufte", "verkieften"],
+    "correct": "verkauften"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "schließen",
+    "suffix": "das Fenster wegen der Kälte.",
+    "options": ["schließt", "schloss", "schloß", "schließte"],
+    "correct": "schloss"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "hoffen",
+    "suffix": "auf eine gute Nachricht.",
+    "options": ["hoffst", "hofftest", "hofft", "hoffe"],
+    "correct": "hofftest"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "schauen",
+    "suffix": "einen Film auf Netflix.",
+    "options": ["schauten", "schaut", "schauten", "schieften"],
+    "correct": "schauten"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "steigen",
+    "suffix": "aus dem Bus aus.",
+    "options": ["steigt", "stiegt", "stieg", "steigte"],
+    "correct": "stieg"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "reisen",
+    "suffix": "gerne in ferne Länder.",
+    "options": ["reistet", "reisten", "reist", "reiste"],
+    "correct": "reistet"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "warten",
+    "suffix": "lange auf den Arzt.",
+    "options": ["warteten", "wartet", "warten", "wartetet"],
+    "correct": "warteten"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "duschen",
+    "suffix": "nach dem Sport sehr lange.",
+    "options": ["duscht", "duschte", "duschten", "dischte"],
+    "correct": "duschte"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "klingeln",
+    "suffix": "an der Haustür der Nachbarn.",
+    "options": ["klingeltet", "klingeltst", "klingeltest", "klingelst"],
+    "correct": "klingeltest"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "wandern",
+    "suffix": "gerne in den Alpen.",
+    "options": ["wanderten", "wandert", "wandern", "wandertete"],
+    "correct": "wanderten"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "liegen",
+    "suffix": "den ganzen Tag am Strand.",
+    "options": ["liegt", "lag", "log", "legte"],
+    "correct": "lag"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "schenken",
+    "suffix": "ihm ein tolles Buch.",
+    "options": ["schenkt", "schenktet", "schenkten", "schunktet"],
+    "correct": "schenktet"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "öffnen",
+    "suffix": "das Paket voller Vorfreude.",
+    "options": ["öffneten", "öffnet", "öffnete", "öffne"],
+    "correct": "öffneten"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "malen",
+    "suffix": "ein schönes Bild für dich.",
+    "options": ["malte", "malt", "mältest", "malten"],
+    "correct": "malte"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "tanzen",
+    "suffix": "sehr gut auf der Party.",
+    "options": ["tanzte", "tanztest", "tanzt", "tenztest"],
+    "correct": "tanztest"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "entscheiden",
+    "suffix": "uns für das blaue Sofa.",
+    "options": ["entscheidet", "entschieden", "entscheidten", "entschiedet"],
+    "correct": "entschieden"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "antworten",
+    "suffix": "nicht auf meine Frage.",
+    "options": ["antwortete", "antwortet", "antwort", "antworte"],
+    "correct": "antwortete"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "vergessen",
+    "suffix": "eure Regenschirme im Zug.",
+    "options": ["vergesst", "vergaßt", "vergesset", "vergasst"],
+    "correct": "vergaßt"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "übernachten",
+    "suffix": "in einem kleinen Hotel.",
+    "options": ["übernachteten", "übernachtet", "übernachtete", "übernachten"],
+    "correct": "übernachteten"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "versprechen",
+    "suffix": "ihr die volle Wahrheit.",
+    "options": ["versproch", "versprach", "versprechte", "verspricht"],
+    "correct": "versprach"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "rufen",
+    "suffix": "mich gestern Abend an.",
+    "options": ["rufte", "riefst", "ruftest", "rieft"],
+    "correct": "riefst"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "sparen",
+    "suffix": "Geld für den Sommerurlaub.",
+    "options": ["sparten", "spart", "sparte", "sparten"],
+    "correct": "sparten"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "empfehlen",
+    "suffix": "mir ein sehr gutes Restaurant.",
+    "options": ["empfahl", "empfiehlt", "empfehlte", "empfohl"],
+    "correct": "empfahl"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "grillen",
+    "suffix": "am Wochenende im Garten.",
+    "options": ["grilltet", "grillten", "grillt", "grilltete"],
+    "correct": "grilltet"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "laufen",
+    "suffix": "durch den ganzen Park.",
+    "options": ["liefen", "lauften", "lief", "laufte"],
+    "correct": "liefen"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "fühlen",
+    "suffix": "mich gestern nicht so gut.",
+    "options": ["fühlt", "fühlte", "fühlten", "fühltet"],
+    "correct": "fühlte"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "hören",
+    "suffix": "den lauten Knall.",
+    "options": ["hörtest", "hörst", "hortest", "hörtet"],
+    "correct": "hörtest"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "schwimmen",
+    "suffix": "jeden Morgen im See.",
+    "options": ["schwimmten", "schwimmen", "schwammen", "schwommt"],
+    "correct": "schwammen"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "träumen",
+    "suffix": "von einer Weltreise.",
+    "options": ["träumte", "träumt", "traumte", "treumte"],
+    "correct": "träumte"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "streiten",
+    "suffix": "euch wegen einer Kleinigkeit.",
+    "options": ["streitet", "strittet", "streittete", "strittet"],
+    "correct": "strittet"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "beantworten",
+    "suffix": "alle Fragen korrekt.",
+    "options": ["beantworteten", "beantwortet", "beantwortete", "beantworten"],
+    "correct": "beantworteten"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "zeichnen",
+    "suffix": "eine Karte von der Umgebung.",
+    "options": ["zeichnete", "zeichnet", "zeichne", "zeichneten"],
+    "correct": "zeichnete"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "parken",
+    "suffix": "das Auto direkt vor der Tür.",
+    "options": ["parkst", "parkte", "parktest", "parketst"],
+    "correct": "parktest"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "grüßen",
+    "suffix": "unsere neuen Nachbarn.",
+    "options": ["grüßten", "grüßt", "grüßen", "großten"],
+    "correct": "grüßten"
+  },
+  {
+    "prefix": "Er ",
+    "verb": "zerbrechen",
+    "suffix": "versehentlich die Vase.",
+    "options": ["zerbrach", "zerbricht", "zerbroch", "zerbrechte"],
+    "correct": "zerbrach"
+  },
+  {
+    "prefix": "Ihr ",
+    "verb": "erklären",
+    "suffix": "uns die Spielregeln.",
+    "options": ["erklärt", "erklärtet", "erklärten", "erklärte"],
+    "correct": "erklärtet"
+  },
+  {
+    "prefix": "Sie ",
+    "verb": "laden",
+    "suffix": "viele Gäste zum Fest ein.",
+    "options": ["ladeten", "luden", "ladeten", "ladet"],
+    "correct": "luden"
+  },
+  {
+    "prefix": "Ich ",
+    "verb": "weinen",
+    "suffix": "beim Abschied am Flughafen.",
+    "options": ["weinte", "weint", "weinten", "weine"],
+    "correct": "weinte"
+  },
+  {
+    "prefix": "Du ",
+    "verb": "versprechen",
+    "suffix": "mir ewige Treue.",
+    "options": ["versprachst", "versprochst", "versprichst", "versprechest"],
+    "correct": "versprachst"
+  },
+  {
+    "prefix": "Wir ",
+    "verb": "buchen",
+    "suffix": "eine Reise nach Italien.",
+    "options": ["buchten", "bucht", "buchte", "beuchten"],
+    "correct": "buchten"
+  }
+]

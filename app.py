@@ -241,5 +241,37 @@ def get_preposition_exercise():
         data = json.load(f)
     return jsonify(random.choice(data))
 
+
+
+@app.route('/exercise/past_tense')
+def past_tense():
+    # Sicherheitscheck: Ist ein Lehrer eingeloggt und ein Schüler aktiv?
+    if 'user' not in session or 'student_name' not in session:
+        return redirect(url_for('dashboard'))
+
+    # Kategorie aus der URL holen (Standard: 'allgemein')
+    category = request.args.get('category', 'allgemein')
+
+    return render_template('exercises/past_tense.html',
+                           student_name=session['student_name'],
+                           category=category)
+
+
+@app.route('/get_past_tense_categories')
+def get_past_tense_categories():
+    files = os.listdir('categories/past_tense/')
+    categories = [f.replace('.json', '')
+                  for f in files if f.endswith('.json')]
+    return jsonify(categories)
+
+@app.route('/get_past_tense_exercise')
+def get_past_tense_exercise():
+    category = request.args.get('category')
+    filepath = os.path.join('categories/past_tense', f"{category}.json")
+    if not os.path.exists(filepath): return jsonify({"error": "Nicht gefunden"}), 404
+    with open(filepath, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    return jsonify(random.choice(data))
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
