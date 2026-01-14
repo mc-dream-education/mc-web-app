@@ -1,0 +1,176 @@
+/* Container für die Top-Bar */
+#top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    height: 70px;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid #e0e0e0;
+    z-index: 1000;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.bar-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.align-right { justify-content: flex-end; }
+
+/* Buttons */
+.btn {
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-secondary {
+    background: #f1f3f5;
+    color: #495057;
+}
+
+.btn-secondary:hover { background: #e9ecef; }
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.btn-outline:hover {
+    background: #f0f7ff;
+}
+
+/* Der Hilfstext-Button Basis-Style */
+#btn-help-toggle {
+    min-width: 180px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid #007bff;
+}
+
+/* Zustand: Hilfstext ist AN (Sichtbar) */
+.btn-on {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* Zustand: Hilfstext ist AUS (Versteckt) */
+.btn-off {
+    background-color: transparent;
+    color: #007bff;
+}
+
+/* Dashboard Button (Grau wie im Screenshot) */
+.btn-dashboard {
+    background: #f1f3f5;
+    color: #495057;
+    border: 1px solid #e0e0e0;
+}
+
+.btn-dashboard:hover {
+    background: #e9ecef;
+}
+
+/* Segmented Control (Modus-Umschalter) */
+.segmented-control {
+    display: flex;
+    background: #f1f3f5;
+    padding: 4px;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+}
+
+.segmented-control input { display: none; }
+
+.segmented-control label {
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #6c757d;
+    transition: all 0.2s;
+}
+
+.segmented-control input:checked + label {
+    background: #ffffff;
+    color: #007bff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Status Anzeige */
+#status-badge {
+    background: #e7f1ff;
+    color: #007bff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+#keyboard-wrapper {
+    flex: 0 0 50vh; /* Nimmt die untere Hälfte des Bildschirms ein */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e0e0;
+    padding: 20px;
+}
+
+#virtual-keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Abstand zwischen den Reihen */
+    width: 95%;
+    max-width: 1000px;
+}
+
+.kb-row {
+    display: flex;
+    justify-content: center;
+    gap: 8px; /* Abstand zwischen den Tasten */
+}
+
+.kb-row button {
+    flex: 1;
+    min-width: 45px;
+    height: 70px; /* Deutlich höher für bessere Haptik */
+    font-size: 1.5rem; /* Größere Buchstaben */
+    font-weight: bold;
+    background: #ffffff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 0 #999;
+    transition: all 0.1s;
+}
+
+.kb-row button:active {
+    box-shadow: 0 1px 0 #999;
+    transform: translateY(3px);
+    background: #d0d0d0;
+}
+
+/* Spezialbreite für die untere Reihe, falls gewünscht */
+.kb-row:last-child {
+    width: 90%;
+    margin: 0 auto;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Auswendig Lernen: {{ data.title }}</title>
+    <link rel="stylesheet" href="/static/css/keyboard.css">
+    <style>
+        :root { --bg-past-error: rgba(255, 0, 0, 0.15); }
+        body { font-family: sans-serif; display: flex; flex-direction: column; height: 100vh; margin: 0; }
+
+        #text-container {
+            flex: 0 0 40vh; /* Fester Prozentsatz der Bildschirmlöhe */
+            overflow-y: auto;
+            padding: 20px;
+            font-size: 1.5rem;
+            line-height: 1.8;
+            border-bottom: 2px solid #ccc;
+            background: #f9f9f9;
+        }
+
+        .word { display: inline-block; margin-right: 8px; padding: 2px 4px; border-radius: 4px; }
+        .char { color: #bbb; transition: color 0.2s; }
+        .char.correct { color: #000; font-weight: bold; }
+        .char.current { border-bottom: 3px solid #007bff; }
+        .word.wrong { background-color: #ffcccc !important; transition: background 0.3s; }
+        .word.past-error { background-color: var(--bg-past-error); border: 1px dashed red; }
+
+        #controls { padding: 10px; display: flex; gap: 20px; align-items: center; background: #eee; }
+        .hidden-text .char:not(.correct) { opacity: 0; } /* Hilfstext ausblenden */
+
+        #keyboard-wrapper { flex-grow: 1; display: flex; align-items: center; justify-content: center; background: #ddd; }
+        .fat-finger-warn { animation: flash 0.3s; }
+        @keyframes flash { 0% { background: orange; } 100% { background: transparent; } }
+    </style>
+</head>
+<body>
+<div id="top-bar">
+    <div class="bar-section">
+        <a href="/dashboard" class="btn btn-dashboard">
+            <span class="icon">←</span> Dashboard
+        </a>
+
+        <button id="btn-help-toggle" class="btn btn-on" onclick="toggleHelp()">
+            Hilfstext Ausblenden
+        </button>
+    </div>
+
+    <div class="bar-section">
+        <div class="segmented-control">
+            <input type="radio" name="mode" id="mode-all" value="all" checked onchange="setMode('all')">
+            <label for="mode-all">Alle Buchstaben</label>
+
+            <input type="radio" name="mode" id="mode-first" value="first" onchange="setMode('first')">
+            <label for="mode-first">Anfangsbuchstaben</label>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="text-container" class="">
+    </div>
+
+<div id="keyboard-wrapper">
+    <div id="virtual-keyboard"></div>
+</div>
+
+<script src="{{ url_for('static', filename='js/keyboard_logic.js') }}"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        initExercise({
+            fullText: {{ data.text|tojson }},
+            filename: {{ filename|tojson }},
+            pastErrors: {{ past_errors|tojson }}
+        });
+    });
+</script>
+</body>
+</html>

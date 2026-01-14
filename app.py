@@ -8,24 +8,66 @@ import os
 from datetime import datetime
 app = Flask(__name__)
 app.secret_key = "nachhilfe_geheimnis_123"
+DATABASE = 'database.db'
 
-# Datenbank initialisieren
+
 def init_db():
-    conn = sqlite3.connect('database.db')
+    conn = sqlite3.connect(DATABASE)
     c = conn.cursor()
-    # Lehrer-Tabelle
-    c.execute('''CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, username TEXT, password TEXT)''')
-    # Unterrichts-Logs
-    c.execute('''CREATE TABLE IF NOT EXISTS lesson_logs 
-                 (id INTEGER PRIMARY KEY, teacher TEXT, student TEXT, exercise TEXT, timestamp TEXT)''')
-    # Beispiel-Lehrer anlegen (nur wenn leer)
+
+    # 1. Lehrer/User-Tabelle
+    c.execute('''CREATE TABLE IF NOT EXISTS users
+                 (
+                     id
+                     INTEGER
+                     PRIMARY
+                     KEY,
+                     username
+                     TEXT,
+                     password
+                     TEXT
+                 )''')
+
+    # 2. Erweiterte Unterrichts-Logs
+    # Wir speichern: Wer (student), in welchem Text (source_file), welches Wort (error_word)
+    c.execute('''CREATE TABLE IF NOT EXISTS lesson_logs
+                 (
+                     id
+                     INTEGER
+                     PRIMARY
+                     KEY
+                     AUTOINCREMENT,
+                     teacher
+                     TEXT,
+                     student
+                     TEXT,
+                     exercise_type
+                     TEXT,
+                     source_file
+                     TEXT,
+                     error_word
+                     TEXT,
+                     timestamp
+                     DATETIME
+                     DEFAULT
+                     CURRENT_TIMESTAMP
+                 )''')
+
+    # Beispiel-Lehrer anlegen
     c.execute("SELECT * FROM users WHERE username='admin'")
     if not c.fetchone():
         c.execute("INSERT INTO users (username, password) VALUES ('admin', 'start123')")
+
     conn.commit()
     conn.close()
+    print("Datenbank erfolgreich initialisiert.")
 
 init_db()
+
+def get_db_connection():
+    conn = sqlite3.connect(DATABASE)
+    conn.row_factory = sqlite3.Row
+    return conn
 
 # --- ROUTES ---
 
@@ -272,6 +314,82 @@ def get_past_tense_exercise():
     with open(filepath, 'r', encoding='utf-8') as f:
         data = json.load(f)
     return jsonify(random.choice(data))
+
+
+@app.route('/exercise/memorize/<filename>')
+def exercise_memorize(filename):
+    # Wir holen den Namen aus der Session (User-Eingabe beim Start des Portals)
+    student_name = session.get('student_name')
+    if not student_name:
+        return "Kein Schüler ausgewählt", 403
+
+    file_path = os.path.join('categories/memorize', f'{filename}.json')
+    with open(file_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    conn = get_db_connection()
+    # KORREKTUR: Spaltenname 'student' statt 'student_name'
+    past_errors = conn.execute('''
+        SELECT DISTINCT error_word 
+        FROM lesson_logs 
+        WHERE student = ? AND source_file = ?
+    ''', (student_name, filename)).fetchall()
+    conn.close()
+
+    error_list = [row['error_word'] for row in past_errors]
+
+    return render_template('exercises/memorize.html',
+                           data=data,
+                           filename=filename,
+                           past_errors=error_list)
+
+
+import os
+
+
+@app.route('/exercise/memorize')
+def list_memorize_exercises():
+    student_name = session.get('student_name')
+    if not student_name:
+        return redirect(url_for('index'))  # Oder wo auch immer dein Login ist
+
+    base_path = 'categories/memorize'
+    exercises = []
+
+    # Scanne alle Dateien im Ordner
+    if os.path.exists(base_path):
+        for filename in os.listdir(base_path):
+            if filename.endswith('.json'):
+                file_id = filename.replace('.json', '')
+
+                # Titel aus der JSON lesen für die Anzeige
+                try:
+                    with open(os.path.join(base_path, filename), 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                        exercises.append({
+                            'id': file_id,
+                            'title': data.get('title', file_id),
+                            'preview': data.get('text', '')[:60] + "..."  # Kurze Vorschau
+                        })
+                except Exception as e:
+                    print(f"Fehler beim Laden von {filename}: {e}")
+
+    return render_template('exercises/memorize_list.html', exercises=exercises)
+
+# Beispiel für die bestehende log_error Route (falls noch nicht voll implementiert)
+@app.route('/log_error_memory', methods=['POST'])
+def log_error_memory():
+    req_data = request.json
+    student_name = session.get('student_name')
+
+    conn = get_db_connection()
+    conn.execute('''
+                 INSERT INTO lesson_logs (student_name, source_file, error_word, timestamp)
+                 VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+                 ''', (student_name, req_data['filename'], req_data['word']))
+    conn.commit()
+    conn.close()
+    return jsonify({"status": "logged"})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)

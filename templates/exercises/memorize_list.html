@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Wähle eine Übung</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/keyboard.css') }}">
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #f8f9fa; margin: 0; padding: 40px; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        h1 { color: #212529; margin-bottom: 30px; }
+
+        .exercise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .exercise-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #eee;
+        }
+
+        .exercise-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            border-color: #007bff;
+        }
+
+        .exercise-card h3 { margin: 0 0 10px 0; color: #007bff; }
+        .exercise-card p { font-size: 0.9rem; color: #6c757d; line-height: 1.4; flex-grow: 1; }
+
+        .start-badge {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #007bff;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1>Texte auswendig lernen</h1>
+        <a href="/dashboard" class="btn btn-secondary">← Zurück</a>
+    </div>
+
+    <div class="exercise-grid">
+        {% for ex in exercises %}
+        <a href="{{ url_for('exercise_memorize', filename=ex.id) }}" class="exercise-card">
+            <h3>{{ ex.title }}</h3>
+            <p>{{ ex.preview }}</p>
+            <div class="start-badge">Übung starten →</div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+
+</body>
+</html>
