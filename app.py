@@ -409,5 +409,33 @@ def exercise_das_dass():
         student_name=session.get('student_name')
     )
 
+
+@app.route('/exercise/satzbau')
+def exercise_syntax():
+    # Pfad zum Kategorien-Ordner
+    category_path = os.path.join(app.root_path, 'categories/satzbau')
+
+    # Beispiel: Wir suchen nach einer Datei namens 'syntax_sentences.json'
+    # Alternativ: Alle JSONs im Ordner listen und eine zufällig wählen
+    try:
+        with open(os.path.join(category_path, 'syntax_sentences.json'), 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            # Wähle einen zufälligen Beispielsatz aus der Liste in der JSON
+            # Ich gehe davon aus, dass die JSON ein Array von Objekten enthält
+            random_sentence = random.choice(data['sentences'])
+    except (FileNotFoundError, IndexError, KeyError):
+        # Fallback oder Fehlermeldung
+        return "Fehler beim Laden der Übungsdaten.", 404
+
+    # Bestimme zufällig das Ziel: Hauptsatz (HS) oder Gliedsatz (GS)
+    target_type = random.choice(['HS', 'GS'])
+    target_label = "den Hauptsatz" if target_type == "HS" else "den Gliedsatz"
+
+    return render_template('exercises/syntax_exercise.html',
+                           sentence_parts=random_sentence['sentence_parts'],
+                           target_type=target_type,
+                           target_label=target_label,
+                           full_sentence=" ".join([p['text'] for p in random_sentence['sentence_parts']]))
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
