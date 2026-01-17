@@ -344,9 +344,6 @@ def exercise_memorize(filename):
                            past_errors=error_list)
 
 
-import os
-
-
 @app.route('/exercise/memorize')
 def list_memorize_exercises():
     student_name = session.get('student_name')
@@ -390,6 +387,27 @@ def log_error_memory():
     conn.commit()
     conn.close()
     return jsonify({"status": "logged"})
+
+
+@app.route('/exercise/das-dass')
+def exercise_das_dass():
+    # Sicherheitscheck: Ist ein Schüler angemeldet?
+    if 'student_name' not in session:
+        return redirect(url_for('login'))  # Oder entsprechende Route
+
+    json_path = os.path.join(app.root_path, 'categories/das_dass', 'das_dass.json')
+
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            questions = json.load(f)
+    except FileNotFoundError:
+        questions = []
+
+    return render_template(
+        'exercises/das_dass.html',
+        questions=questions,
+        student_name=session.get('student_name')
+    )
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)

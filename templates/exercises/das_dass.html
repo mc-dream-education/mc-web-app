@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammatik-Trainer: das oder dass</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --success: #27ae60;
+            --error: #e74c3c;
+            --bg: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--primary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            max-width: 800px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .sentence-display {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            line-height: 1.4;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gap {
+            border-bottom: 3px solid var(--accent);
+            padding: 0 10px;
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-choice {
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border: 2px solid var(--accent);
+            background: white;
+            color: var(--accent);
+            border-radius: 8px;
+            transition: all 0.2s;
+            font-weight: 600;
+        }
+
+        .btn-choice:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        .btn-choice.wrong {
+            background-color: var(--error);
+            border-color: var(--error);
+            color: white;
+            animation: shake 0.3s;
+        }
+
+        .btn-choice.correct-flash {
+            background-color: var(--success);
+            border-color: var(--success);
+            color: white;
+        }
+
+        .explanation-box {
+            background-color: #fff4e5;
+            border-left: 5px solid #ffa502;
+            padding: 15px;
+            margin-top: 1rem;
+            border-radius: 4px;
+            display: none;
+            text-align: left;
+            animation: fadeIn 0.5s;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-10px); }
+            75% { transform: translateX(10px); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .progress {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="progress">Satz <span id="current-idx">1</span> von {{ questions|length }}</div>
+
+    <div class="sentence-display" id="sentence-container">
+        </div>
+
+    <div class="button-group">
+        <button class="btn-choice" onclick="checkAnswer('das')">das</button>
+        <button class="btn-choice" onclick="checkAnswer('dass')">dass</button>
+    </div>
+
+    <div id="explanation" class="explanation-box"></div>
+</div>
+
+<script>
+    const questions = {{ questions | tojson }};
+    let currentIndex = 0;
+    let errorLoggedForCurrent = false;
+
+    const sentenceContainer = document.getElementById('sentence-container');
+    const explanationBox = document.getElementById('explanation');
+    const currentIdxSpan = document.getElementById('current-idx');
+
+    function loadQuestion() {
+        if (currentIndex >= questions.length) {
+            sentenceContainer.innerHTML = "🎉 Gut gemacht! Du hast alle Sätze abgeschlossen.";
+            document.querySelector('.button-group').style.display = 'none';
+            return;
+        }
+
+        const q = questions[currentIndex];
+        errorLoggedForCurrent = false;
+        explanationBox.style.display = 'none';
+        currentIdxSpan.innerText = currentIndex + 1;
+
+        // Ersetze ___ durch ein Styled-Element
+        const displaySentence = q.sentence.replace('___', '<span class="gap">___</span>');
+        sentenceContainer.innerHTML = displaySentence;
+
+        // Reset Buttons
+        document.querySelectorAll('.btn-choice').forEach(btn => {
+            btn.classList.remove('wrong', 'correct-flash');
+            btn.disabled = false;
+        });
+    }
+
+    async function checkAnswer(choice) {
+        const q = questions[currentIndex];
+        const buttons = document.querySelectorAll('.btn-choice');
+        const clickedBtn = Array.from(buttons).find(b => b.innerText === choice);
+
+        if (choice === q.correct) {
+            // RICHTIG
+            clickedBtn.classList.add('correct-flash');
+
+            // Kurze Verzögerung für das visuelle Feedback
+            setTimeout(() => {
+                currentIndex++;
+                loadQuestion();
+            }, 800);
+
+        } else {
+            // FALSCH
+            clickedBtn.classList.add('wrong');
+            explanationBox.innerText = "💡 " + q.explanation;
+            explanationBox.style.display = 'block';
+
+            // Log Error nur beim ersten falschen Klick pro Satz
+            if (!errorLoggedForCurrent) {
+                logErrorToBackend(choice, q);
+                errorLoggedForCurrent = true;
+            }
+        }
+    }
+
+    function logErrorToBackend(wrongChoice, questionObj) {
+        const payload = {
+            session_name: "{{ student_name }}",
+            exercise: "das-dass-Training",
+            category: "Grammatik",
+            word: questionObj.sentence.substring(0, 30) + "...", // Identifikator des Satzes
+            wrong_article: wrongChoice
+        };
+
+        fetch('/log_error', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        }).catch(err => console.error("Logging failed", err));
+    }
+
+    // Initialisierung
+    loadQuestion();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,507 @@
+[
+{
+"sentence": "___ Wetter in den Alpen kann sich innerhalb von Minuten ändern.",
+"correct": "das",
+"explanation": "Bestimmter Artikel im Nominativ, der das Substantiv 'Wetter' begleitet."
+},
+{
+"sentence": "Es ist allgemein bekannt, ___ Bewegung die Konzentration fördert.",
+"correct": "dass",
+"explanation": "Konjunktion, die einen abhängigen Nebensatz (Objektsatz) einleitet."
+},
+{
+"sentence": "___ Buch, welches du mir geliehen hast, liegt noch auf dem Nachttisch.",
+"correct": "das",
+"explanation": "Bestimmter Artikel, der das Substantiv 'Buch' bestimmt."
+},
+{
+"sentence": "Das Problem, ___ wir gestern besprochen haben, scheint gelöst zu sein.",
+"correct": "das",
+"explanation": "Relativpronomen, bezieht sich auf 'Problem' (Ersatzprobe: welches)."
+},
+{
+"sentence": "Ich bezweifle, ___ die Ergebnisse der Studie repräsentativ sind.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung eines Dass-Satzes nach einem Verb des Zweifelns."
+},
+{
+"sentence": "___ Kind, ___ dort drüben spielt, ist mein Neffe.",
+"correct": "das",
+"explanation": "Erstes Feld: Artikel; zweites Feld: Relativpronomen (bezieht sich auf Kind)."
+},
+{
+"sentence": "Es freut mich sehr, ___ Sie die Einladung angenommen haben.",
+"correct": "dass",
+"explanation": "Konjunktion, die einen Subjektsatz einleitet."
+},
+{
+"sentence": "___ ist genau das Argument, welches mir in der Diskussion fehlte.",
+"correct": "das",
+"explanation": "Demonstrativpronomen, steht stellvertretend für einen Sachverhalt (Ersatzprobe: dies)."
+},
+{
+"sentence": "Der Geruch nach frischem Brot erinnert mich daran, ___ ich noch Hunger habe.",
+"correct": "dass",
+"explanation": "Konjunktion, die einen durch 'daran' angekündigten Nebensatz einleitet."
+},
+{
+"sentence": "___ Gebäude am Ende der Straße wurde im Barockstil erbaut.",
+"correct": "das",
+"explanation": "Bestimmter Artikel am Satzanfang (kleingeschrieben laut Vorgabe)."
+},
+{
+"sentence": "Wusstest du schon, ___ Wale eigentlich Säugetiere sind?",
+"correct": "dass",
+"explanation": "Konjunktion, die einen Objektsatz nach einem Verb des Wissens einleitet."
+},
+{
+"sentence": "___ Fahrrad, ___ du gestern repariert hast, fährt wieder einwandfrei.",
+"correct": "das",
+"explanation": "Relativpronomen, das sich auf das sächliche Nomen 'Fahrrad' bezieht."
+},
+{
+"sentence": "Ich finde es erstaunlich, ___ Hummeln trotz ihrer Anatomie fliegen können.",
+"correct": "dass",
+"explanation": "Konjunktion, leitet einen Nebensatz ein; Ersatzprobe mit 'welches' nicht möglich."
+},
+{
+"sentence": "___ Experiment, ___ die Forscher durchführten, lieferte bahnbrechende Daten.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Er behauptet steif und fest, ___ er den Termin nicht vergessen hat.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung der indirekten Rede oder Behauptung."
+},
+{
+"sentence": "___ Gesetz tritt erst am ersten Januar nächsten Jahres in Kraft.",
+"correct": "das",
+"explanation": "Bestimmter Artikel, der das Substantiv 'Gesetz' begleitet."
+},
+{
+"sentence": "Sie hofft darauf, ___ die Züge heute pünktlich kommen.",
+"correct": "dass",
+"explanation": "Konjunktion, die einen mit dem Korrelat 'darauf' eingeleiteten Nebensatz füllt."
+},
+{
+"sentence": "Das ist ___ Beste, was wir unter diesen Umständen tun können.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor dem substantivierten Superlativ 'Beste'."
+},
+{
+"sentence": "___ Licht, ___ durch das Prisma fällt, wird in Regenbogenfarben zerlegt.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches Licht/welches)."
+},
+{
+"sentence": "Es ist unbestreitbar, ___ der Klimawandel globale Auswirkungen hat.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung eines feststellenden Nebensatzes."
+},
+{
+"sentence": "Hast du ___ Plakat gesehen, ___ an der Litfaßsäule klebt?",
+"correct": "das",
+"explanation": "Relativpronomen, bezieht sich auf das sächliche Nomen 'Plakat'."
+},
+{
+"sentence": "___ Gericht schmeckte vorzüglich, obwohl es sehr scharf war.",
+"correct": "das",
+"explanation": "Bestimmter Artikel im Nominativ."
+},
+{
+"sentence": "Die Tatsache, ___ er die Wahrheit gesagt hat, änderte alles.",
+"correct": "dass",
+"explanation": "Konjunktion, die einen Appositionssatz zum Substantiv 'Tatsache' einleitet."
+},
+{
+"sentence": "___ Fenster, ___ im Sturm zerbrach, muss schnell ersetzt werden.",
+"correct": "das",
+"explanation": "Relativpronomen, rückbezüglich auf 'Fenster'."
+},
+{
+"sentence": "Ich kann mir kaum vorstellen, ___ diese Methode wirklich funktioniert.",
+"correct": "dass",
+"explanation": "Konjunktion, leitet einen abhängigen Begehrsatz oder Objektsatz ein."
+},
+{
+"sentence": "___ kleine Dorf liegt malerisch zwischen zwei grünen Hügeln.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor dem Adjektivattribut und Nomen."
+},
+{
+"sentence": "Er hat mir versprochen, ___ er mich vom Flughafen abholt.",
+"correct": "dass",
+"explanation": "Konjunktion, leitet ein Versprechen als Nebensatz ein."
+},
+{
+"sentence": "___ Dokument, ___ du suchst, befindet sich im obersten Schubfach.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Es ist wichtig, ___ man bei dieser Arbeit Schutzkleidung trägt.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung eines notwendigen Subjektsatzes."
+},
+{
+"sentence": "___ älteste Gebäude der Stadt wird derzeit aufwendig saniert.",
+"correct": "das",
+"explanation": "Bestimmter Artikel zum substantivierten Adjektiv/Superlativ."
+},
+{
+"sentence": "Der Lehrer betonte, ___ die Hausaufgaben essenziell für den Erfolg sind.",
+"correct": "dass",
+"explanation": "Konjunktion nach einem Verb der Mitteilung."
+},
+{
+"sentence": "___ Medikament, ___ der Arzt verschrieben hat, wirkt sehr schnell.",
+"correct": "das",
+"explanation": "Relativpronomen, das sich auf 'Medikament' bezieht."
+},
+{
+"sentence": "Ich finde es schade, ___ du heute Abend nicht kommen kannst.",
+"correct": "dass",
+"explanation": "Konjunktion, leitet einen Gliedsatz ein, der ein Gefühl ausdrückt."
+},
+{
+"sentence": "___ Handy, ___ auf dem Tisch liegt, gehört meiner Schwester.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Es ist ein Wunder, ___ bei dem schweren Unfall niemand verletzt wurde.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung eines erläuternden Nebensatzes."
+},
+{
+"sentence": "___ Konzert war restlos ausverkauft.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor dem Substantiv 'Konzert'."
+},
+{
+"sentence": "Sie wusste nicht einmal, ___ heute ein Feiertag ist.",
+"correct": "dass",
+"explanation": "Konjunktion, leitet einen Objektsatz nach einem Verb des Wissens ein."
+},
+{
+"sentence": "___ Geheimnis, ___ er mir anvertraute, werde ich niemandem verraten.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Es ist offensichtlich, ___ hier jemand eingebrochen ist.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung einer Feststellung."
+},
+{
+"sentence": "___ Kätzchen, ___ so laut miaut, hat bestimmt Hunger.",
+"correct": "das",
+"explanation": "Relativpronomen, bezieht sich auf das Neutrum 'Kätzchen'."
+},
+{
+"sentence": "Ich befürchte, ___ wir den letzten Bus bereits verpasst haben.",
+"correct": "dass",
+"explanation": "Konjunktion nach einem Verb der Befürchtung."
+},
+{
+"sentence": "___ Manuskript, ___ der Autor verfasste, war über tausend Seiten lang.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Kann es sein, ___ du dich im Tag geirrt hast?",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung einer Frage im Nebensatz."
+},
+{
+"sentence": "___ Schicksal meinte es in diesem Moment gut mit ihm.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor 'Schicksal'."
+},
+{
+"sentence": "Die Ärztin riet dazu, ___ der Patient mehr Sport treibt.",
+"correct": "dass",
+"explanation": "Konjunktion, leitet eine Empfehlung als Nebensatz ein."
+},
+{
+"sentence": "___ Flugzeug, ___ gerade landet, kommt aus New York.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Mir ist aufgefallen, ___ die Tage im Winter deutlich kürzer sind.",
+"correct": "dass",
+"explanation": "Konjunktion, leitet eine Wahrnehmung im Nebensatz ein."
+},
+{
+"sentence": "___ schönste Erlebnis war die Wanderung durch die Schlucht.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor einem Superlativ."
+},
+{
+"sentence": "Ich erwarte von dir, ___ du die Wahrheit sagst.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung einer Forderung."
+},
+{
+"sentence": "Das ist ___ Auto, ___ ich mir schon immer gewünscht habe.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "___ Dorf, in dem ich aufgewachsen bin, ist heute eine Kleinstadt.",
+"correct": "das",
+"explanation": "Bestimmter Artikel im Nominativ."
+},
+{
+"sentence": "Es steht fest, ___ die Steuern im nächsten Jahr erhöht werden.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung einer feststehenden Tatsache."
+},
+{
+"sentence": "___ Gefühl, ___ ich beim Fliegen habe, ist unbeschreiblich.",
+"correct": "das",
+"explanation": "Relativpronomen, bezieht sich auf 'Gefühl'."
+},
+{
+"sentence": "Ich habe gehört, ___ im Stadtpark ein neues Café eröffnet wurde.",
+"correct": "dass",
+"explanation": "Konjunktion nach einem Verb der akustischen Wahrnehmung/Information."
+},
+{
+"sentence": "___ Schloss, ___ auf dem Berg thront, ist eine Touristenattraktion.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Glaubst du wirklich, ___ Geld allein glücklich macht?",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung einer Meinungsfrage."
+},
+{
+"sentence": "___ Ziel der Reise war es, die Kultur des Landes kennenzulernen.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor 'Ziel'."
+},
+{
+"sentence": "Es ist unwahrscheinlich, ___ es morgen schneien wird.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung einer Wahrscheinlichkeit."
+},
+{
+"sentence": "Das ist ___ Beste, ___ mir seit langem passiert ist.",
+"correct": "das",
+"explanation": "Relativpronomen nach dem substantivierten Superlativ 'Beste'."
+},
+{
+"sentence": "___ Mädchen, ___ dort Gitarre spielt, ist sehr talentiert.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Wusstest du, ___ die Erde kein perfekter Kreis ist?",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung eines Faktums."
+},
+{
+"sentence": "___ Angebot, ___ er mir machte, war einfach zu gut, um es abzulehnen.",
+"correct": "das",
+"explanation": "Relativpronomen, bezieht sich auf 'Angebot'."
+},
+{
+"sentence": "Ich freue mich, ___ du die Prüfung bestanden hast.",
+"correct": "dass",
+"explanation": "Konjunktion, leitet einen Nebensatz der Freude ein."
+},
+{
+"sentence": "___ kleine Einmaleins lernt man normalerweise in der zweiten Klasse.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor dem feststehenden Begriff 'Einmaleins'."
+},
+{
+"sentence": "Das Blatt, ___ vom Baum fällt, segelt langsam zu Boden.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Es war Schicksal, ___ wir uns an diesem Tag begegnet sind.",
+"correct": "dass",
+"explanation": "Konjunktion, leitet einen erklärenden Nebensatz ein."
+},
+{
+"sentence": "___ Museum stellt Werke zeitgenössischer Kunst aus.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor 'Museum'."
+},
+{
+"sentence": "Ich bezweifle, ___ man diese alte Maschine noch reparieren kann.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung eines Zweifels."
+},
+{
+"sentence": "Das ist genau ***, was ich dir schon immer sagen wollte.",
+"correct": "das",
+"explanation": "Demonstrativpronomen (Ersatzprobe: dieses/jenes)."
+},
+{
+"sentence": "*** Versprechen, ___ er gab, hielt er nur für wenige Tage.",
+"correct": "das",
+"explanation": "Relativpronomen, bezieht sich auf 'Versprechen'."
+},
+{
+"sentence": "Es ist schade, ___ viele Sprachen vom Aussterben bedroht sind.",
+"correct": "dass",
+"explanation": "Konjunktion, leitet einen bewertenden Nebensatz ein."
+},
+{
+"sentence": "___ Haus, ___ am See liegt, wurde vor hundert Jahren gebaut.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Sie meinte, ___ der Film ihr sehr gut gefallen habe.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung der indirekten Rede."
+},
+{
+"sentence": "___ Frühstück ist die wichtigste Mahlzeit des Tages.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor 'Frühstück'."
+},
+{
+"sentence": "Ich sehe ein, ___ ich einen Fehler gemacht habe.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung eines Einsichtssatzes."
+},
+{
+"sentence": "Das Werkzeug, ___ du mir gegeben hast, ist leider kaputt.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Ist es wahr, ___ du bald nach Australien auswanderst?",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung einer Wissensfrage."
+},
+{
+"sentence": "___ Beispiel zeigt deutlich die Auswirkungen der Inflation.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor 'Beispiel'."
+},
+{
+"sentence": "Das Kind hoffte, ___ der Nikolaus bald kommt.",
+"correct": "dass",
+"explanation": "Konjunktion, die eine Hoffnung ausdrückt."
+},
+{
+"sentence": "___ Problem, ___ am häufigsten auftritt, ist mangelnde Kommunikation.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Es überrascht mich nicht, ___ er wieder zu spät kommt.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung einer Erwartung/Beobachtung."
+},
+{
+"sentence": "___ Lied, ___ wir im Radio gehört haben, geht mir nicht aus dem Kopf.",
+"correct": "das",
+"explanation": "Relativpronomen, bezieht sich auf 'Lied'."
+},
+{
+"sentence": "Man sagt, ___ Hunde ihren Besitzern oft sehr ähnlich sehen.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung eines Gerüchts oder einer allgemeinen Aussage."
+},
+{
+"sentence": "___ Ergebnis der Untersuchung wird morgen bekannt gegeben.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor 'Ergebnis'."
+},
+{
+"sentence": "Ich wünsche mir, ___ der Sommer ewig dauern würde.",
+"correct": "dass",
+"explanation": "Konjunktion, leitet einen Wunschsatz ein."
+},
+{
+"sentence": "___ Brot, ___ ich heute Morgen gekauft habe, ist schon hart.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Es ist verboten, ___ man hier im Park grillt.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung eines Verbotssatzes."
+},
+{
+"sentence": "___ Foto zeigt meine Großeltern an ihrem Hochzeitstag.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor 'Foto'."
+},
+{
+"sentence": "Er vergaß ganz, ___ er noch einen Termin beim Zahnarzt hatte.",
+"correct": "dass",
+"explanation": "Konjunktion nach einem Verb des Vergessens."
+},
+{
+"sentence": "___ Training, ___ wir absolvierten, war extrem anstrengend.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Bist du sicher, ___ du die Tür abgeschlossen hast?",
+"correct": "dass",
+"explanation": "Konjunktion nach einer Vergewisserung."
+},
+{
+"sentence": "___ Abenteuer begann in den dichten Wäldern des Nordens.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor 'Abenteuer'."
+},
+{
+"sentence": "Der Pilot bestätigte, ___ die Landung sicher verlaufen wird.",
+"correct": "dass",
+"explanation": "Konjunktion nach einer Bestätigung."
+},
+{
+"sentence": "___ Tier, ___ dort im Schatten liegt, ist ein Löwe.",
+"correct": "das",
+"explanation": "Relativpronomen, bezieht sich auf 'Tier'."
+},
+{
+"sentence": "Es ist ein Jammer, ___ so viel Essen weggeworfen wird.",
+"correct": "dass",
+"explanation": "Konjunktion zur Einleitung eines bedauernden Nebensatzes."
+},
+{
+"sentence": "___ Buch ist so spannend, ___ ich es nicht weglegen kann.",
+"correct": "dass",
+"explanation": "Konjunktion (Konsekutivsatz) nach dem Korrelat 'so'."
+},
+{
+"sentence": "___ Fenster ist offen, obwohl es draußen regnet.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor 'Fenster'."
+},
+{
+"sentence": "Er ärgerte sich darüber, ___ er den Zug knapp verpasst hatte.",
+"correct": "dass",
+"explanation": "Konjunktion, leitet einen mit 'darüber' angekündigten Kausalsatz ein."
+},
+{
+"sentence": "___ Motorrad, ___ er sich geliehen hat, ist sehr schnell.",
+"correct": "das",
+"explanation": "Relativpronomen (Ersatzprobe: welches)."
+},
+{
+"sentence": "Ich nehme an, ___ wir heute früher Schluss machen können.",
+"correct": "dass",
+"explanation": "Konjunktion nach einer Vermutung."
+},
+{
+"sentence": "___ Dorffest findet jedes Jahr im August statt.",
+"correct": "das",
+"explanation": "Bestimmter Artikel vor 'Dorffest'."
+}
+]
