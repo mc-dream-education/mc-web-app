@@ -117,13 +117,14 @@ def start_lesson():
     data = request.json
     teacher = session['user']
     student = data.get('student')
-    exercise = data.get('exercise')
+    exercise = data.get('exercise') # Das ist der Wert aus dem JSON
     session['student_name'] = student
     now = datetime.now().strftime("%d.%m.%Y %H:%M")
 
     conn = sqlite3.connect('database.db')
     c = conn.cursor()
-    c.execute("INSERT INTO lesson_logs (teacher, student, exercise, timestamp) VALUES (?, ?, ?, ?)",
+    # Hier 'exercise' durch 'exercise_type' ersetzen:
+    c.execute("INSERT INTO lesson_logs (teacher, student, exercise_type, timestamp) VALUES (?, ?, ?, ?)",
               (teacher, student, exercise, now))
     conn.commit()
     conn.close()
@@ -245,6 +246,40 @@ def adjective_declension():
     return render_template('exercises/adjective.html',
                            student_name=session['student_name'],
                            category=category)
+
+@app.route('/get_past_perfect_tense_categories')
+def get_past_perfect_tense_categories():
+    files = os.listdir('categories/past_perfect_tense/')
+    categories = [f.replace('.json', '')
+                  for f in files if f.endswith('.json')]
+    return jsonify(categories)
+
+
+@app.route('/get_past_perfect_tense_exercise')
+def get_past_perfect_tense_exercise():
+    category = request.args.get('category')
+    filepath = os.path.join('categories/past_perfect_tense', f"{category}.json")
+
+    if not os.path.exists(filepath):
+        return jsonify({"error": "Datei nicht gefunden"}), 404
+
+    with open(filepath, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    return jsonify(random.choice(data))
+
+@app.route('/exercise/past_perfect_tense')
+def past_perfect_tense():
+    # Sicherheitscheck: Ist ein Lehrer eingeloggt und ein Schüler aktiv?
+    if 'user' not in session or 'student_name' not in session:
+        return redirect(url_for('dashboard'))
+
+    # Kategorie aus der URL holen (Standard: 'allgemein')
+    category = request.args.get('category', 'allgemein')
+
+    return render_template('exercises/past_perfect_tense.html',
+                           student_name=session['student_name'],
+                           category=category)
+
 
 @app.route('/get_students')
 def get_students():

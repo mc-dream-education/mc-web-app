@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Vergangenheit-Training | Übung</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; text-align: center; padding-top: 50px; background-color: #fcfcfc; color: #333; }
+        .nav-header { position: absolute; top: 20px; left: 20px; }
+        .stats { font-size: 18px; margin-bottom: 20px; color: #666; font-weight: bold; }
+        .feedback-message { height: 35px; color: #e67e22; font-size: 22px; margin-bottom: 10px; font-weight: 500; }
+
+        /* Satz-Anzeige */
+        .sentence-display { font-size: 42px; font-weight: bold; margin-bottom: 5px; color: #34495e; }
+        .gap { border-bottom: 4px solid #bdc3c7; padding: 0 5px; min-width: 50px; display: inline-block; }
+        .gap.active { border-color: #3498db; color: #3498db; }
+        .gap.finished { border-color: #2ecc71; color: #2ecc71; }
+
+        .translation { color: #95a5a6; font-size: 24px; margin-bottom: 40px; font-style: italic; }
+        .category-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; max-width: 800px; margin: 0 auto; }
+
+        /* Buttons */
+        .btn-container { display: grid; grid-template-cols: repeat(2, 1fr); gap: 15px; max-width: 400px; margin: 0 auto; }
+        button { padding: 15px 25px; font-size: 20px; cursor: pointer; border: 2px solid #34495e; background: white; border-radius: 12px; transition: all 0.2s; font-weight: bold; }
+        button:hover { background-color: #f8f9fa; transform: translateY(-2px); }
+        .btn-category { background-color: #34495e; color: white; border: none; }
+        .btn-back { font-size: 14px; padding: 8px 15px; border-color: #ccc; color: #666; }
+
+        .step-hint { font-size: 14px; text-transform: uppercase; color: #3498db; letter-spacing: 1px; margin-bottom: 10px; font-weight: bold; }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+
+    <div class="nav-header">
+        <button class="btn-back" onclick="location.href='/dashboard'">← Zurück</button>
+    </div>
+
+    <div id="category-selection">
+        <h2 style="margin-top: 60px;">Thema für Vergangenheit wählen:</h2>
+        <div id="category-list" class="category-container"></div>
+    </div>
+
+    <div id="game" class="hidden">
+        <h1 id="display-category" style="color: #34495e; text-transform: uppercase; letter-spacing: 2px; font-size: 18px;">Übung</h1>
+        <div class="stats">Richtig: <span id="correct-count" style="color: #27ae60;">0</span> &nbsp; | &nbsp; Falsch: <span id="wrong-count" style="color: #e74c3c;">0</span></div>
+
+        <div id="step-info" class="step-hint">Schritt 1: Verb </div>
+        <div id="feedback" class="feedback-message"></div>
+
+        <div class="sentence-display">
+            <span id="txt-prefix"></span>
+            <span id="gap1" class="gap active">___</span>
+            <span id="txt-middle"></span>
+            <span id="gap2" class="gap">___</span>
+            <span id="txt-suffix"></span>
+        </div>
+
+        <div id="options-box" class="btn-container">
+            </div>
+    </div>
+
+    <script>
+        let currentData = {};
+        let selectedCategory = "";
+        let correctTotal = 0;
+        let wrongTotal = 0;
+        let currentStep = 1; // 1: Verb, 2: Nomen
+        let hasFailedCurrentPart = false;
+        const studentName = "{{ student_name }}";
+
+        window.onload = fetchCategories;
+
+        async function fetchCategories() {
+            const response = await fetch('/get_past_perfect_tense_categories');
+            const categories = await response.json();
+            const listDiv = document.getElementById('category-list');
+
+            categories.forEach(cat => {
+                const btn = document.createElement('button');
+                btn.innerText = cat;
+                btn.className = "btn-category";
+                btn.onclick = () => startGame(cat);
+                listDiv.appendChild(btn);
+            });
+        }
+
+        function startGame(category) {
+            selectedCategory = category;
+            document.getElementById('category-selection').classList.add('hidden');
+            document.getElementById('game').classList.remove('hidden');
+            document.getElementById('display-category').innerText = "Kategorie: " + category;
+            nextExercise();
+        }
+
+        async function nextExercise() {
+            const response = await fetch(`/get_past_perfect_tense_exercise?category=${selectedCategory}`);
+            currentData = await response.json();
+
+            currentStep = 1;
+            hasFailedCurrentPart = false;
+
+            document.getElementById('feedback').innerText = "";
+            document.getElementById('txt-prefix').innerText = currentData.prefix;
+            document.getElementById('txt-middle').innerText = currentData.middle;
+            document.getElementById('txt-suffix').innerText = currentData.suffix;
+
+            resetGaps();
+            renderButtons(currentData.options1);
+        }
+
+        function resetGaps() {
+            document.getElementById('gap1').innerText = "___";
+            document.getElementById('gap1').className = "gap active";
+            document.getElementById('gap2').innerText = "___";
+            document.getElementById('gap2').className = "gap";
+            document.getElementById('step-info').innerText = "Schritt 1: Verb";
+        }
+
+        function renderButtons(options) {
+            const container = document.getElementById('options-box');
+            container.innerHTML = "";
+
+            // 1. Erstelle eine Kopie des Arrays, damit wir das Original-JSON nicht verändern
+            let shuffledOptions = [...options];
+
+            // 2. Fisher-Yates Shuffle: Das Array wird komplett durchgemischt
+            for (let i = shuffledOptions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+            }
+
+            shuffledOptions.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.innerText = opt === "-" ? "(keine)" : opt;
+                btn.onclick = () => checkAnswer(opt);
+                container.appendChild(btn);
+            });
+        }
+
+        async function checkAnswer(choice) {
+            const feedbackElement = document.getElementById('feedback');
+            const isCorrect = (currentStep === 1) ? (choice === currentData.correct1) : (choice === currentData.correct2);
+
+            if (isCorrect) {
+                if (currentStep === 1) {
+
+                    document.getElementById('gap1').innerText = choice === "-" ? "" : choice.replace("-", "");
+                    document.getElementById('gap1').className = "gap finished";
+                    document.getElementById('gap2').className = "gap active";
+                    document.getElementById('step-info').innerText = "Schritt 2: Nomen-Endung";
+                    currentStep = 2;
+                    hasFailedCurrentPart = false;
+                    renderButtons(currentData.options2);
+                } else {
+                    // Nomen war auch richtig -> Nächste Übung
+                    if (!hasFailedCurrentPart) correctTotal++;
+                    document.getElementById('correct-count').innerText = correctTotal;
+                    document.getElementById('gap2').innerText = choice === "-" ? "" : choice.replace("-", "");
+                    document.getElementById('gap2').className = "gap finished";
+                    feedbackElement.style.color = "#27ae60";
+                    feedbackElement.innerText = "Sehr gut!";
+                    setTimeout(nextExercise, 1000);
+                }
+            } else {
+                // Falsche Antwort
+                feedbackElement.style.color = "#e67e22";
+                feedbackElement.innerText = "Das ist leider falsch.";
+
+                if (!hasFailedCurrentPart) {
+                    wrongTotal++;
+                    document.getElementById('wrong-count').innerText = wrongTotal;
+                    hasFailedCurrentPart = true;
+
+                    // Detaillierter Log
+                    const partName = currentStep === 1 ? "HABEN_SEIN" : "PARTICIP";
+                    await fetch('/log_error', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({
+                            session_name: studentName,
+                            exercise: "Vergangenheit",
+                            category: selectedCategory,
+                            word: currentStep === 1 ? currentData.prefix + "..." : currentData.prefix + currentData.correct1 + currentData.middle + "...",
+                            wrong_article: `${choice} (${partName})`,
+                            score_right: correctTotal,
+                            score_wrong: wrongTotal
+                        })
+                    });
+                }
+            }
+        }
+    </script>
+</body>
+</html>

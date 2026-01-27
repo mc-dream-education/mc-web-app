@@ -1,0 +1,202 @@
+[
+  {
+    "prefix": "Der Koch ",
+    "middle": " die Suppe bereits vor einer Stunde ",
+    "suffix": ".",
+    "options1": ["hat", "ist", "habe", "war"],
+    "correct1": "hat",
+    "options2": ["gekochen", "gekocht", "gekochenen", "gekochte"],
+    "correct2": "gekocht",
+    "translation": "Der Koch hat die Suppe bereits vor einer Stunde gekocht."
+  },
+  {
+    "prefix": "Warum ",
+    "middle": " du das Fleisch nicht rechtzeitig aus dem Kühlschrank ",
+    "suffix": "?",
+    "options1": ["bist", "hast", "hat", "seid"],
+    "correct1": "hast",
+    "options2": ["genommen", "genommt", "genähmt", "genommenen"],
+    "correct2": "genommen",
+    "translation": "Warum hast du das Fleisch nicht rechtzeitig aus dem Kühlschrank genommen?"
+  },
+  {
+    "prefix": "Wir ",
+    "middle": " gestern gemeinsam einen Apfelkuchen ",
+    "suffix": ".",
+    "options1": ["sind", "haben", "waren", "habt"],
+    "correct1": "haben",
+    "options2": ["gebackt", "gebacken", "gebackten", "gebeckt"],
+    "correct2": "gebacken",
+    "translation": "Wir haben gestern gemeinsam einen Apfelkuchen gebacken."
+  },
+  {
+    "prefix": "Das Wasser ",
+    "middle": " im Topf schon seit zehn Minuten ",
+    "suffix": ".",
+    "options1": ["hat", "ist", "wurde", "war"],
+    "correct1": "hat",
+    "options2": ["gesiedet", "gesotten", "gesieden", "gesiedet"],
+    "correct2": "gesiedet",
+    "translation": "Das Wasser hat im Topf schon seit zehn Minuten gesiedet."
+  },
+  {
+    "prefix": "Maria ",
+    "middle": " heute Morgen den ganzen Abwasch ",
+    "suffix": ".",
+    "options1": ["ist", "hat", "wird", "hätte"],
+    "correct1": "hat",
+    "options2": ["erledigen", "erledigt", "erlediget", "geerledigt"],
+    "correct2": "erledigt",
+    "translation": "Maria hat heute Morgen den ganzen Abwasch erledigt."
+  },
+  {
+    "prefix": "Ich ",
+    "middle": " leider das Salz im Teig komplett ",
+    "suffix": ".",
+    "options1": ["bin", "habe", "hatte", "werde"],
+    "correct1": "habe",
+    "options2": ["vergessen", "vergesst", "vergessenes", "gevergessen"],
+    "correct2": "vergessen",
+    "translation": "Ich habe leider das Salz im Teig komplett vergessen."
+  },
+  {
+    "prefix": "Wann ",
+    "middle": " ihr das Geschirr in den Schrank ",
+    "suffix": "?",
+    "options1": ["habt", "seid", "hattet", "werdet"],
+    "correct1": "habt",
+    "options2": ["geräumt", "geräumt", "geräumen", "geraumt"],
+    "correct2": "geräumt",
+    "translation": "Wann habt ihr das Geschirr in den Schrank geräumt?"
+  },
+  {
+    "prefix": "Die Milch ",
+    "middle": " über Nacht leider sauer ",
+    "suffix": ".",
+    "options1": ["hat", "ist", "war", "wird"],
+    "correct1": "ist",
+    "options2": ["geworden", "gewordet", "gewordenen", "werden"],
+    "correct2": "geworden",
+    "translation": "Die Milch ist über Nacht leider sauer geworden."
+  },
+  {
+    "prefix": "Gestern ",
+    "middle": " wir den neuen Induktionsherd endlich ",
+    "suffix": ".",
+    "options1": ["haben", "sind", "hatten", "waren"],
+    "correct1": "haben",
+    "options2": ["ausprobieren", "ausprobiert", "ausgeprobiert", "ausgeprobieren"],
+    "correct2": "ausprobiert",
+    "translation": "Gestern haben wir den neuen Induktionsherd endlich ausprobiert."
+  },
+  {
+    "prefix": "Der Gast ",
+    "middle": " den Wein vorsichtig ",
+    "suffix": ".",
+    "options1": ["hat", "ist", "hätte", "war"],
+    "correct1": "hat",
+    "options2": ["probiert", "geprobiert", "probieren", "geprobt"],
+    "correct2": "probiert",
+    "translation": "Der Gast hat den Wein vorsichtig probiert."
+  },
+  {
+    "prefix": "Wir ",
+    "middle": " nach dem Essen sofort die Küche ",
+    "suffix": ".",
+    "options1": ["sind", "haben", "hätten", "waren"],
+    "correct1": "haben",
+    "options2": ["aufgeräumt", "aufgeräumen", "geaufräumt", "aufraümt"],
+    "correct2": "aufgeräumt",
+    "translation": "Wir haben nach dem Essen sofort die Küche aufgeräumt."
+  },
+  {
+    "prefix": "Das Messer ",
+    "middle": " mir beim Schneiden aus der Hand ",
+    "suffix": ".",
+    "options1": ["hat", "ist", "wurde", "war"],
+    "correct1": "ist",
+    "options2": ["gefallen", "gefallt", "gefallen", "gefallt"],
+    "correct2": "gefallen",
+    "translation": "Das Messer ist mir beim Schneiden aus der Hand gefallen."
+  },
+  {
+    "prefix": "Franz ",
+    "middle": " die Kartoffeln schon vorhin ",
+    "suffix": ".",
+    "options1": ["hat", "ist", "habe", "hatte"],
+    "correct1": "hat",
+    "options2": ["geschält", "geschält", "geschälen", "gescheelt"],
+    "correct2": "geschält",
+    "translation": "Franz hat die Kartoffeln schon vorhin geschält."
+  },
+  {
+    "prefix": "Du ",
+    "middle": " den Braten viel zu lange im Ofen ",
+    "suffix": ".",
+    "options1": ["bist", "hast", "hat", "hättest"],
+    "correct1": "hast",
+    "options2": ["gelassen", "gelasst", "lassen", "gelassen"],
+    "correct2": "gelassen",
+    "translation": "Du hast den Braten viel zu lange im Ofen gelassen."
+  },
+  {
+    "prefix": "Das Restaurant ",
+    "middle": " gestern wegen Renovierung ",
+    "suffix": ".",
+    "options1": ["hat", "ist", "war", "wurde"],
+    "correct1": "hat",
+    "options2": ["geschlossen", "geschließt", "geschlossen", "geschließen"],
+    "correct2": "geschlossen",
+    "translation": "Das Restaurant hat gestern wegen Renovierung geschlossen."
+  },
+  {
+    "prefix": "Ich ",
+    "middle": " heute Morgen frischen Kaffee ",
+    "suffix": ".",
+    "options1": ["bin", "habe", "werde", "hätte"],
+    "correct1": "habe",
+    "options2": ["gekocht", "gekocht", "gekochen", "kochen"],
+    "correct2": "gekocht",
+    "translation": "Ich habe heute Morgen frischen Kaffee gekocht."
+  },
+  {
+    "prefix": "Die Sahne ",
+    "middle": " leider nicht steif ",
+    "suffix": ".",
+    "options1": ["hat", "ist", "wird", "war"],
+    "correct1": "ist",
+    "options2": ["geworden", "gewordet", "geworden", "werden"],
+    "correct2": "geworden",
+    "translation": "Die Sahne ist leider nicht steif geworden."
+  },
+  {
+    "prefix": "Haben Sie die Zwiebeln schon fein ",
+    "middle": " ",
+    "suffix": "?",
+    "options1": ["-", "-", "-", "-"],
+    "correct1": "-",
+    "options2": ["geschnitten", "geschnittet", "geschneidet", "geschnittenen"],
+    "correct2": "geschnitten",
+    "translation": "Haben Sie die Zwiebeln schon fein geschnitten?"
+  },
+  {
+    "prefix": "Der Kuchen ",
+    "middle": " in der Mitte noch nicht ganz ",
+    "suffix": ".",
+    "options1": ["hat", "ist", "war", "wird"],
+    "correct1": "ist",
+    "options2": ["durchgebacken", "durchgebackt", "durchbacken", "gebacken"],
+    "correct2": "durchgebacken",
+    "translation": "Der Kuchen ist in der Mitte noch nicht ganz durchgebacken."
+  },
+  {
+    "prefix": "Wir ",
+    "middle": " den ganzen Abend über Rezepte ",
+    "suffix": ".",
+    "options1": ["sind", "haben", "hatten", "waren"],
+    "correct1": "haben",
+    "options2": ["gesprochen", "gesprecht", "gesprochen", "sprechen"],
+    "correct2": "gesprochen",
+    "translation": "Wir haben den ganzen Abend über Rezepte gesprochen."
+  }
+]
